@@ -17,7 +17,7 @@ class AnimesModels{
     this.classificacaoIndicativaSerie,
     this.paisMaisFamosoSerie,
   );
-   AnimesModels.fromJson(MapSD json){
+   AnimesModels.fromJson(mapSD json){
    nomeSerie = json['nome_serie'].toString();
    sinopseSerie = json['sinopse_serie'].toString();
    generoSerie = json['genero_serie'].toString();
