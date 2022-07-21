@@ -7,7 +7,6 @@ class AnimesPage extends StatefulWidget {
   @override
   State<AnimesPage> createState() => _AnimesPageState();
 }
-
 class _AnimesPageState extends State<AnimesPage> {
   @override
   Widget build(BuildContext context) {
