@@ -1,7 +1,6 @@
 import 'package:app_personagens_biografia/ui/alteracoes_page.dart';
 import 'package:app_personagens_biografia/ui/animes_page.dart';
 import 'package:app_personagens_biografia/ui/desenhos_page.dart';
-import 'package:app_personagens_biografia/models/cards.dart';
 import 'package:app_personagens_biografia/ui/filmes_page.dart';
 import 'package:app_personagens_biografia/ui/jogos_page.dart';
 import 'package:app_personagens_biografia/ui/livros_page.dart';
