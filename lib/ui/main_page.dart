@@ -1,7 +1,10 @@
+import 'package:app_personagens_biografia/ui/alteracoes_page.dart';
 import 'package:app_personagens_biografia/ui/animes_page.dart';
 import 'package:app_personagens_biografia/ui/desenhos_page.dart';
 import 'package:app_personagens_biografia/models/cards.dart';
+import 'package:app_personagens_biografia/ui/filmes_page.dart';
 import 'package:app_personagens_biografia/ui/jogos_page.dart';
+import 'package:app_personagens_biografia/ui/livros_page.dart';
 import 'package:app_personagens_biografia/ui/series_page.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -116,27 +119,30 @@ class _MainPageState extends State<MainPage> {
                ),
                          ),
              ),
-             Card(
-              color: Color.fromARGB(255, 243, 244, 244),
-              shape: RoundedRectangleBorder(
-    borderRadius: BorderRadius.circular(23.0),
-    side: BorderSide(
-      color: Color(0xFF0E19E3),
-      width: 4.5
-    )
-            ),
-             elevation: 17.6,
-              child: Column(
-              children: [
-                Padding(padding: EdgeInsets.symmetric(vertical: 23)),
-                Icon(Ionicons.videocam,size: 90,color: Color(0xFF0e19e3),),
-                Text('Filmes',style: GoogleFonts.chakraPetch(
-                  color: Color.fromARGB(255, 7, 7, 7),
-                  fontSize: 26
-                ),)
-              ],
+             GestureDetector(
+               onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => FilmrsPage(),)),
+               child: Card(
+                color: Color.fromARGB(255, 243, 244, 244),
+                shape: RoundedRectangleBorder(
+                 borderRadius: BorderRadius.circular(23.0),
+                 side: BorderSide(
+                   color: Color(0xFF0E19E3),
+                   width: 4.5
+                 )
+                         ),
+               elevation: 17.6,
+                child: Column(
+                children: [
+                  Padding(padding: EdgeInsets.symmetric(vertical: 23)),
+                  Icon(Ionicons.videocam,size: 90,color: Color(0xFF0e19e3),),
+                  Text('Filmes',style: GoogleFonts.chakraPetch(
+                    color: Color.fromARGB(255, 7, 7, 7),
+                    fontSize: 26
+                  ),)
+                ],
+               ),
+                         ),
              ),
-            ),
              GestureDetector(
               onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => JogosPage(),)),
                child: Card(
@@ -161,27 +167,30 @@ class _MainPageState extends State<MainPage> {
                ),
                          ),
              ),
-             Card(
-              color: Color.fromARGB(255, 250, 249, 248),
-              shape: RoundedRectangleBorder(
-    borderRadius: BorderRadius.circular(23.0),
-    side: BorderSide(
-      color: Color(0xFF15af0d),
-      width: 4.5
-    ),
-            ),
-             elevation: 17.6,
-              child: Column(
-              children: [
-                Padding(padding: EdgeInsets.symmetric(vertical: 23)),
-                Icon(Ionicons.book_outline,size: 90,color: Color(0xFF15AF0D),),
-                Text('Livros',style: GoogleFonts.chakraPetch(
-                  color: Color.fromARGB(255, 7, 7, 7),
-                  fontSize: 26
-                ),),
-              ],
+             GestureDetector(
+               onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => LivrosPage(),)),
+               child: Card(
+                color: Color.fromARGB(255, 250, 249, 248),
+                shape: RoundedRectangleBorder(
+                 borderRadius: BorderRadius.circular(23.0),
+                 side: BorderSide(
+                   color: Color(0xFF15af0d),
+                   width: 4.5
+                 ),
+                         ),
+               elevation: 17.6,
+                child: Column(
+                children: [
+                  Padding(padding: EdgeInsets.symmetric(vertical: 23)),
+                  Icon(Ionicons.book_outline,size: 90,color: Color(0xFF15AF0D),),
+                  Text('Livros',style: GoogleFonts.chakraPetch(
+                    color: Color.fromARGB(255, 7, 7, 7),
+                    fontSize: 26
+                  ),),
+                ],
+               ),
+                         ),
              ),
-            ),
           GestureDetector(
             onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage(),)),
             child: Card(
@@ -206,26 +215,29 @@ class _MainPageState extends State<MainPage> {
                ),
               ),
           ),
-            Card(
-              color: Color.fromARGB(255, 250, 249, 248),
-              shape: RoundedRectangleBorder(
-    borderRadius: BorderRadius.circular(23.0),
-    side: BorderSide(
-      color: Color(0xFF9109F9),
-      width: 4.5
-    ),
-            ),
-             elevation: 17.6,
-              child: Column(
-              children: [
-                Padding(padding: EdgeInsets.symmetric(vertical: 23)),
-                Icon(Ionicons.settings_outline,size: 90,color: Color(0xFF9109f9),),
-                Text('Alterações',style: GoogleFonts.chakraPetch(
-                  color: Color.fromARGB(255, 7, 7, 7),
-                  fontSize: 26
-                ),),
-              ],
-             ),
+            GestureDetector(
+               onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AlteracoesPage(),)),
+              child: Card(
+                color: Color.fromARGB(255, 250, 249, 248),
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(23.0),
+                side: BorderSide(
+                  color: Color(0xFF9109F9),
+                  width: 4.5
+                ),
+              ),
+               elevation: 17.6,
+                child: Column(
+                children: [
+                  Padding(padding: EdgeInsets.symmetric(vertical: 23)),
+                  Icon(Ionicons.settings_outline,size: 90,color: Color(0xFF9109f9),),
+                  Text('Alterações',style: GoogleFonts.chakraPetch(
+                    color: Color.fromARGB(255, 7, 7, 7),
+                    fontSize: 26
+                  ),),
+                ],
+               ),
+              ),
             ),   
           ],
         ),
