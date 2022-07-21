@@ -1,4 +1,4 @@
-import 'package:app_personagens_biografia/main_page.dart';
+import 'package:app_personagens_biografia/ui/main_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
