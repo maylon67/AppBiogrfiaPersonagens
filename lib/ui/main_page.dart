@@ -1,9 +1,14 @@
+import 'package:app_personagens_biografia/ui/animes_page.dart';
 import 'package:app_personagens_biografia/ui/desenhos_page.dart';
 import 'package:app_personagens_biografia/models/cards.dart';
+import 'package:app_personagens_biografia/ui/jogos_page.dart';
+import 'package:app_personagens_biografia/ui/series_page.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:app_personagens_biografia/app_config.dart';
 import 'package:ionicons/ionicons.dart';
+
+import 'login_page.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({Key? key}) : super(key: key);
@@ -37,26 +42,29 @@ class _MainPageState extends State<MainPage> {
               crossAxisSpacing: 12),
           shrinkWrap: true,
           children: [
-            Card(
-              color: Colors.white,
-              shape: RoundedRectangleBorder(
-    borderRadius: BorderRadius.circular(23.0),
-    side: BorderSide(
-      color: Color(0xFF07D1CA),
-      width: 4.5
-    )
-            ),
-            elevation: 17.6,
-             child: Column(
-              children: [
-                Padding(padding: EdgeInsets.symmetric(vertical: 23)),
-                Icon(Ionicons.laptop,size: 90,color: Color(0xFF07d1ca),),
-                Text('Animes',style: GoogleFonts.chakraPetch(
-                  color: Color.fromARGB(255, 7, 7, 7),
-                  fontSize: 26
-                ),)
-              ],
-             ),
+            GestureDetector(
+              onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
+              child: Card(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(23.0),
+                side: BorderSide(
+                  color: Color(0xFF07D1CA),
+                  width: 4.5
+                )
+              ),
+              elevation: 17.6,
+               child: Column(
+                children: [
+                  Padding(padding: EdgeInsets.symmetric(vertical: 23)),
+                  Icon(Ionicons.laptop,size: 90,color: Color(0xFF07d1ca),),
+                  Text('Animes',style: GoogleFonts.chakraPetch(
+                    color: Color.fromARGB(255, 7, 7, 7),
+                    fontSize: 26
+                  ),)
+                ],
+               ),
+              ),
             ),
             GestureDetector(
               onTap: () {
@@ -84,27 +92,30 @@ class _MainPageState extends State<MainPage> {
                ),
               ),
             ),
-             Card(
-              color: Colors.white,
-              shape: RoundedRectangleBorder(
-    borderRadius: BorderRadius.circular(23.0),
-    side: BorderSide(
-      color: Color(0xFFEC0909),
-      width: 4.5
-    ),
-            ),
-             elevation: 17.6,
-              child: Column(
-              children: [
-                Padding(padding: EdgeInsets.symmetric(vertical: 23)),
-                Icon(Ionicons.easel,size: 90,color: Color(0xFFec0909),),
-                Text('Séries',style: GoogleFonts.chakraPetch(
-                  color: Color.fromARGB(255, 7, 7, 7),
-                  fontSize: 26
-                ),)
-              ],
+             GestureDetector(
+              onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => SeriesPage(),)),
+               child: Card(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                 borderRadius: BorderRadius.circular(23.0),
+                 side: BorderSide(
+                   color: Color(0xFFEC0909),
+                   width: 4.5
+                 ),
+                         ),
+               elevation: 17.6,
+                child: Column(
+                children: [
+                  Padding(padding: EdgeInsets.symmetric(vertical: 23)),
+                  Icon(Ionicons.easel,size: 90,color: Color(0xFFec0909),),
+                  Text('Séries',style: GoogleFonts.chakraPetch(
+                    color: Color.fromARGB(255, 7, 7, 7),
+                    fontSize: 26
+                  ),)
+                ],
+               ),
+                         ),
              ),
-            ),
              Card(
               color: Color.fromARGB(255, 243, 244, 244),
               shape: RoundedRectangleBorder(
@@ -126,27 +137,30 @@ class _MainPageState extends State<MainPage> {
               ],
              ),
             ),
-             Card(
-              color: Color.fromARGB(255, 237, 239, 242),
-              shape: RoundedRectangleBorder(
-    borderRadius: BorderRadius.circular(23.0),
-    side: BorderSide(
-      color: Color(0xFFe39c0e),
-      width: 4.5
-    )
-            ),
-             elevation: 17.6,
-             child: Column(
-              children: [
-                Padding(padding: EdgeInsets.symmetric(vertical: 23)),
-                Icon(Ionicons.game_controller_outline,size: 90,color: Color(0xFFe39c0e),),
-                Text('Jogos',style: GoogleFonts.chakraPetch(
-                  color: Color.fromARGB(255, 7, 7, 7),
-                  fontSize: 26
-                ),)
-              ],
+             GestureDetector(
+              onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => JogosPage(),)),
+               child: Card(
+                color: Color.fromARGB(255, 237, 239, 242),
+                shape: RoundedRectangleBorder(
+                 borderRadius: BorderRadius.circular(23.0),
+                 side: BorderSide(
+                   color: Color(0xFFe39c0e),
+                   width: 4.5
+                 )
+                         ),
+               elevation: 17.6,
+               child: Column(
+                children: [
+                  Padding(padding: EdgeInsets.symmetric(vertical: 23)),
+                  Icon(Ionicons.game_controller_outline,size: 90,color: Color(0xFFe39c0e),),
+                  Text('Jogos',style: GoogleFonts.chakraPetch(
+                    color: Color.fromARGB(255, 7, 7, 7),
+                    fontSize: 26
+                  ),)
+                ],
+               ),
+                         ),
              ),
-            ),
              Card(
               color: Color.fromARGB(255, 250, 249, 248),
               shape: RoundedRectangleBorder(
@@ -168,27 +182,30 @@ class _MainPageState extends State<MainPage> {
               ],
              ),
             ),
-          Card(
-              color: Color.fromARGB(255, 250, 249, 248),
-              shape: RoundedRectangleBorder(
-    borderRadius: BorderRadius.circular(23.0),
-    side: BorderSide(
-      color: Color(0xFF05aa94),
-      width: 4.5
-    ),
-            ),
-             elevation: 17.6,
-              child: Column(
-              children: [
-                Padding(padding: EdgeInsets.symmetric(vertical: 23)),
-                Icon(Ionicons.person_outline,size: 90,color: Color(0xFF05AA94),),
-                Text('Login',style: GoogleFonts.chakraPetch(
-                  color: Color.fromARGB(255, 7, 7, 7),
-                  fontSize: 26
-                ),),
-              ],
-             ),
-            ),
+          GestureDetector(
+            onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage(),)),
+            child: Card(
+                color: Color.fromARGB(255, 250, 249, 248),
+                shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(23.0),
+              side: BorderSide(
+                color: Color(0xFF05aa94),
+                width: 4.5
+              ),
+              ),
+               elevation: 17.6,
+                child: Column(
+                children: [
+                  Padding(padding: EdgeInsets.symmetric(vertical: 23)),
+                  Icon(Ionicons.person_outline,size: 90,color: Color(0xFF05AA94),),
+                  Text('Login',style: GoogleFonts.chakraPetch(
+                    color: Color.fromARGB(255, 7, 7, 7),
+                    fontSize: 26
+                  ),),
+                ],
+               ),
+              ),
+          ),
             Card(
               color: Color.fromARGB(255, 250, 249, 248),
               shape: RoundedRectangleBorder(
