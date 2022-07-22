@@ -11,7 +11,7 @@ import 'package:app_personagens_biografia/app_config.dart';
 
 mapSD jsonTest = {
 "animes" : [
-{
+  {
   "nome_anime":"Dragon Ball Z",
   "lancamento_anime":"1986",
   "genero_anime" : "ação/aventura/artes marciais",
