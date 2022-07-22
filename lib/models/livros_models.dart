@@ -21,6 +21,5 @@ class AnimesModels{
    generoLivro = json['genero_livro'].toString();
    lancamentoLivro = json['lancamento_livro'].toString();
    classificacaoIndicativaLivro = json['class_indicativa_livro'].toString();
-   paisMaisFamosoLivro = json['pais_mais_famoso_livro'].toString();
   }
 } 

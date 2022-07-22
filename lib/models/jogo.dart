@@ -20,6 +20,5 @@ class Jogo{
     dataDeLancamento = json['data_de_lancamento_do_jogo'];
     nomeDoJogo = json['nome_do_jogo'];
     generoDoJogo = json['genero_do_jogo'];
-    paisQueMaisJoga = json['pais_que_mais_joga_o_jogo'];
   }
 }
