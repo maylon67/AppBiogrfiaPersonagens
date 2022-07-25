@@ -3,6 +3,9 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:app_personagens_biografia/app_config.dart';
 import 'package:ionicons/ionicons.dart';
 
+Color colorScaffoldPersonagensApp = Colors.white  ;
+bool isSwitch = false;
+
 class AlteracoesPage extends StatefulWidget {
   const AlteracoesPage({ Key? key }) : super(key: key);
 
@@ -14,6 +17,7 @@ class _AlteracoesPageState extends State<AlteracoesPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: colorScaffoldPersonagensApp,
       appBar: AppBar(
         title: Text(
           'Alterações',
@@ -28,11 +32,10 @@ class _AlteracoesPageState extends State<AlteracoesPage> {
           Divider(
             height: 0,
             thickness: 1.4,
-            color: corPadraoPersonagemsApp,
+            color: corPadraoPersonagensApp,
           ),
           GestureDetector(
-            onTap: () {
-            },
+            onTap: () {},
             child: Row(
               children: <Widget>[
                 SizedBox(
@@ -44,7 +47,7 @@ class _AlteracoesPageState extends State<AlteracoesPage> {
                     'Configurar conta',
                     style: TextStyle(
                       fontSize: 29,
-                      color: corPadraoPersonagemsApp,
+                      color: corPadraoPersonagensApp,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
@@ -54,25 +57,57 @@ class _AlteracoesPageState extends State<AlteracoesPage> {
                   padding: const EdgeInsets.only(left: 6.5),
                   child: Icon(
                     Icons.account_circle_sharp,
-                    color: corPadraoPersonagemsApp,
+                    color: corPadraoPersonagensApp,
                     size: 42,
                   ),
-                ),
-                Divider(
-                  height: 0,
-                  thickness: 1.4,
-                  color: corPadraoPersonagemsApp,
-                ),
-                SizedBox(
-                  height: 19,
                 ),
               ],
             ),
           ),
+           Divider(
+                  height: 0,
+                  thickness: 1.4,
+                  color: corPadraoPersonagensApp,
+                ),
+           Row(
+            children: [
+              Padding(
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+                child: GestureDetector(
+                  child: Text(
+                    'Tema escuro',
+                    style: TextStyle(
+                      color: corPadraoPersonagensApp,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 29,
+                    ),
+                    textAlign: TextAlign.left,
+                  ),
+                ),
+              ),
+              Padding(padding: EdgeInsets.symmetric(horizontal: 45)),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 8),
+                child: Switch(
+                    value: isSwitch,
+                    onChanged: (newValue) {
+                      if (isSwitch == false) {
+                        colorScaffoldPersonagensApp = Colors.black;
+                      } else {
+                        colorScaffoldPersonagensApp = Colors.white;
+                      }
+                      setState(() {
+                        isSwitch = newValue;
+                      });
+                    }),
+              ),
+            ],
+          ), 
           Divider(
             height: 0,
             thickness: 1.4,
-            color: corPadraoPersonagemsApp,
+            color: corPadraoPersonagensApp,
           ),
             Row(
             children: <Widget>[
@@ -82,19 +117,17 @@ class _AlteracoesPageState extends State<AlteracoesPage> {
           Divider(
             height: 0,
             thickness: 1.4,
-            color: corPadraoPersonagemsApp,
+            color: corPadraoPersonagensApp,
           ),
               Padding(
                 padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
                 child: GestureDetector(
-                  onTap: (){
-                   
-                  },
+                  onTap: (){},
                   child: Text(
                     'Mudar e-mail',
                     style: TextStyle(
                       fontSize: 29,
-                      color: corPadraoPersonagemsApp,
+                      color: corPadraoPersonagensApp,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
@@ -104,14 +137,14 @@ class _AlteracoesPageState extends State<AlteracoesPage> {
                 padding: const EdgeInsets.only(left: 100),
                 child: Icon(
                   Icons.alternate_email,
-                  color: corPadraoPersonagemsApp,
+                  color: corPadraoPersonagensApp,
                   size: 42,
                 ),
               ),
               Divider(
                 height: 0,
                 thickness: 1.4,
-                color: corPadraoPersonagemsApp,
+                color: corPadraoPersonagensApp,
               ),
               SizedBox(
                 height: 19,
@@ -121,7 +154,7 @@ class _AlteracoesPageState extends State<AlteracoesPage> {
           Divider(
             height: 0,
             thickness: 1.4,
-            color: corPadraoPersonagemsApp,
+            color: corPadraoPersonagensApp,
           ),
           Row(
             children: <Widget>[
@@ -131,14 +164,12 @@ class _AlteracoesPageState extends State<AlteracoesPage> {
               Padding(
                 padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
                 child: GestureDetector(
-                  onTap: (){
-                   
-                  },
+                  onTap: (){},
                   child: Text(
                     'Mudar senha',
                     style: TextStyle(
                       fontSize: 29,
-                      color: corPadraoPersonagemsApp,
+                      color: corPadraoPersonagensApp,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
@@ -148,14 +179,14 @@ class _AlteracoesPageState extends State<AlteracoesPage> {
                 padding: const EdgeInsets.only(left: 105),
                 child: Icon(
                   Icons.vpn_key,
-                  color: corPadraoPersonagemsApp,
+                  color: corPadraoPersonagensApp,
                   size: 42,
                 ),
               ),
               Divider(
                 height: 0,
                 thickness: 1.4,
-                color: corPadraoPersonagemsApp,
+                color: corPadraoPersonagensApp,
               ),
               SizedBox(
                 height: 19,
@@ -165,7 +196,7 @@ class _AlteracoesPageState extends State<AlteracoesPage> {
           Divider(
             height: 0,
             thickness: 1.4,
-            color: corPadraoPersonagemsApp,
+            color: corPadraoPersonagensApp,
           ),
         ],
       ), 

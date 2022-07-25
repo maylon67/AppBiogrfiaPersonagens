@@ -1,13 +1,13 @@
 import 'package:app_personagens_biografia/app_config.dart';
 
-class AnimesModels{
+class LivrosModels{
   String nomeLivro = '';
   String sinopseLivro = '';
   String generoLivro = '';
   String lancamentoLivro = '';
   String  classificacaoIndicativaLivro = '';
   String paisMaisFamosoLivro = '';
-  AnimesModels(
+  LivrosModels(
     this.nomeLivro,
     this.sinopseLivro,
     this.generoLivro,
@@ -15,7 +15,7 @@ class AnimesModels{
     this.classificacaoIndicativaLivro,
     this.paisMaisFamosoLivro,
   );
-   AnimesModels.fromJson(mapSD json){
+   LivrosModels.fromJson(mapSD json){
    nomeLivro = json['nome_livro'].toString();
    sinopseLivro = json['sinopse_livro'].toString();
    generoLivro = json['genero_livro'].toString();

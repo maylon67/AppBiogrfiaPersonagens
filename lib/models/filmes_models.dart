@@ -1,13 +1,13 @@
 import 'package:app_personagens_biografia/app_config.dart';
 
-class Filme{
+class FilmeModels{
   String nomeDoFilme ='';
   String tempoDoFilme ='';
   String classificacaoEducativaFilme = '';
   String generoDoFilme = '';
   String studioDoFilme ='';
   String personagemPrincipalFilme = '';
-  Filme(
+  FilmeModels(
     this.classificacaoEducativaFilme,
     this.generoDoFilme,
     this.nomeDoFilme,
@@ -15,7 +15,7 @@ class Filme{
     this.studioDoFilme,
     this.tempoDoFilme
   );
- Filme.fromJson(mapSD json){
+ FilmeModels.fromJson(mapSD json){
   nomeDoFilme = json['nome_do_filme'];
   tempoDoFilme = json['tempo_do_filme'];
   classificacaoEducativaFilme = json['classificacao_educativa_do_filme'];

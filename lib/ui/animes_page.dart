@@ -1,3 +1,4 @@
+import 'package:app_personagens_biografia/ui/alteracoes_page.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -11,6 +12,7 @@ class _AnimesPageState extends State<AnimesPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: colorScaffoldPersonagensApp,
       appBar: AppBar(
         title: Text(
           'Animes',

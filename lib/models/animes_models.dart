@@ -3,13 +3,15 @@ import 'package:app_personagens_biografia/app_config.dart';
 class AnimesModels{
   String nomeAnime = '';
   String sinopseAnime = '';
+  String criadorAnime = '';
   String generoAnime = '';
-  String lancamentoAnime = '';
-  String numeroEpisodiosAnime = '';
-  String classificacaoIndicativaAnime = '';
+  num lancamentoAnime = 0.0;
+  num numeroEpisodiosAnime = 0.0;
+  num classificacaoIndicativaAnime = 0.0;
   String paisMaisFamosoAnime = '';
   AnimesModels(
     this.nomeAnime,
+    this.criadorAnime,
     this.sinopseAnime,
     this.generoAnime,
     this.lancamentoAnime,
@@ -18,12 +20,13 @@ class AnimesModels{
     this.paisMaisFamosoAnime,
   );
    AnimesModels.fromJson(mapSD json){
-   nomeAnime = json['nome_anime'].toString();
-   sinopseAnime = json['sinopse_anime'].toString();
-   generoAnime = json['genero_anime'].toString();
-   lancamentoAnime = json['lancamento_anime'].toString();
-   numeroEpisodiosAnime = json['numero_episodios_anime'].toString();
-   classificacaoIndicativaAnime = json['class_indicativa_anime'].toString();
+   nomeAnime = json['nome_anime'];
+   criadorAnime = json['criador_anime'];
+   sinopseAnime = json['sinopse_anime'];
+   generoAnime = json['genero_anime'];
+   lancamentoAnime = json['lancamento_anime'];
+   numeroEpisodiosAnime = json['numero_episodios_anime'];
+   classificacaoIndicativaAnime = json['class_indicativa_anime'];
    paisMaisFamosoAnime = json['pais_mais_famoso_anime'].toString();
   }
 } 

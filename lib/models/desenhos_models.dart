@@ -1,13 +1,13 @@
 import 'package:app_personagens_biografia/app_config.dart';
 
-class Desenho{
+class DesenhoModels{
  String nomeDoDesenho = '';
  String quantidadeDeEpDesenho = '';
  String classificacaoEducativaDesenho = '';
  String sinopseDesenho ='';
  String personagemProtagonistaDesenho ='';
  String criadorDesenho ='';
- Desenho(
+ DesenhoModels(
   this.classificacaoEducativaDesenho,
   this.criadorDesenho,
   this.nomeDoDesenho,
@@ -15,7 +15,7 @@ class Desenho{
   this.quantidadeDeEpDesenho,
   this.sinopseDesenho
  );
- Desenho.fromJson(mapSD json){
+ DesenhoModels.fromJson(mapSD json){
  classificacaoEducativaDesenho = json['classificacao_educativa_do_desenho'];
  criadorDesenho = json['criador_do_desenho'];
  sinopseDesenho = json['sinopse_do_desenho'];

@@ -1,6 +1,6 @@
 import 'package:app_personagens_biografia/app_config.dart';
 
-class AnimesModels{
+class SeriesModels{
   String nomeSerie = '';
   String sinopseSerie = '';
   String generoSerie = '';
@@ -8,7 +8,7 @@ class AnimesModels{
   String numeroEpisodiosSerie = '';
   String classificacaoIndicativaSerie = '';
   String paisMaisFamosoSerie = '';
-  AnimesModels(
+  SeriesModels(
     this.nomeSerie,
     this.sinopseSerie,
     this.generoSerie,
@@ -17,7 +17,7 @@ class AnimesModels{
     this.classificacaoIndicativaSerie,
     this.paisMaisFamosoSerie,
   );
-   AnimesModels.fromJson(mapSD json){
+   SeriesModels.fromJson(mapSD json){
    nomeSerie = json['nome_serie'].toString();
    sinopseSerie = json['sinopse_serie'].toString();
    generoSerie = json['genero_serie'].toString();

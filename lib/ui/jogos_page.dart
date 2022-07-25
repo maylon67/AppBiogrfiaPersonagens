@@ -1,4 +1,5 @@
 import 'package:app_personagens_biografia/app_config.dart';
+import 'package:app_personagens_biografia/ui/alteracoes_page.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:ionicons/ionicons.dart';
@@ -14,6 +15,7 @@ class _JogosPageState extends State<JogosPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: colorScaffoldPersonagensApp,
       appBar: AppBar(
         title: Text(
           'Jogos',
@@ -23,7 +25,7 @@ class _JogosPageState extends State<JogosPage> {
         centerTitle: true,
         backgroundColor: Color.fromARGB(255, 19, 18, 18),
         leading: Icon(Ionicons.menu_outline,
-            color: corPadraoPersonagemsApp, size: 40),
+            color: corPadraoPersonagensApp, size: 40),
         actions: [
           Padding(
             padding: EdgeInsets.all(30),
