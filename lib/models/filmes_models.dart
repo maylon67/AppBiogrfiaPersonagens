@@ -1,26 +1,35 @@
 import 'package:app_personagens_biografia/app_config.dart';
 
 class FilmeModels{
-  String nomeDoFilme ='';
-  String tempoDoFilme ='';
-  String classificacaoEducativaFilme = '';
+  String nomeFilme = '';
+  String diretorFilme = '';
+  String tempoFilme = '';
+  String protagonistaFilme = '';
+  String studioDoFilme = '';
+  String studioDublagemBrFilme = '';
+  String lancamentoFilme = '';
   String generoDoFilme = '';
-  String studioDoFilme ='';
-  String personagemPrincipalFilme = '';
+   String classificacaoIndicativaFilme = '';
   FilmeModels(
-    this.classificacaoEducativaFilme,
-    this.generoDoFilme,
-    this.nomeDoFilme,
-    this.personagemPrincipalFilme,
+    this.nomeFilme,
+    this.diretorFilme,
+    this.tempoFilme,
+    this.protagonistaFilme,
     this.studioDoFilme,
-    this.tempoDoFilme
+    this.studioDublagemBrFilme,
+    this.lancamentoFilme,
+    this.generoDoFilme,
+    this.classificacaoIndicativaFilme,
   );
  FilmeModels.fromJson(mapSD json){
-  nomeDoFilme = json['nome_do_filme'];
-  tempoDoFilme = json['tempo_do_filme'];
-  classificacaoEducativaFilme = json['classificacao_educativa_do_filme'];
-  generoDoFilme = json['genero_do_filme'];
+  nomeFilme = json['nome_do_filme'];
+  diretorFilme = json['diretor_filme'];
+  tempoFilme = json['tempo_do_filme'];
+  protagonistaFilme = json['protagonista_do_filme'];
   studioDoFilme = json['studio_do_filme'];
-  personagemPrincipalFilme = json['personagem_protagonista_do_filme'];
+  studioDublagemBrFilme = json['studio_dublagem_br_filme'];
+  lancamentoFilme = json['lancamento_filme'];
+  generoDoFilme = json['genero_do_filme'];
+  classificacaoIndicativaFilme = json['classificacao_indicativa_do_filme'];
  } 
 }

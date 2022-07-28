@@ -1,26 +1,29 @@
 import 'package:app_personagens_biografia/app_config.dart';
 
 class DesenhoModels{
- String nomeDoDesenho = '';
- String quantidadeDeEpDesenho = '';
- String classificacaoEducativaDesenho = '';
- String sinopseDesenho ='';
- String personagemProtagonistaDesenho ='';
+ String nomeDesenho = '';
  String criadorDesenho ='';
+ String protagonistaDesenho ='';
+ String sinopseDesenho ='';
+ int quantidadeEpDesenho = -1;
+ int quantidadeTempDesenho = -1;
+ String classificacaoIndicativaDesenho = '';
  DesenhoModels(
-  this.classificacaoEducativaDesenho,
+  this.nomeDesenho,
   this.criadorDesenho,
-  this.nomeDoDesenho,
-  this.personagemProtagonistaDesenho,
-  this.quantidadeDeEpDesenho,
-  this.sinopseDesenho
+  this.protagonistaDesenho,
+  this.sinopseDesenho,
+  this.quantidadeEpDesenho,
+  this.quantidadeTempDesenho,
+  this.classificacaoIndicativaDesenho,
  );
  DesenhoModels.fromJson(mapSD json){
- classificacaoEducativaDesenho = json['classificacao_educativa_do_desenho'];
- criadorDesenho = json['criador_do_desenho'];
- sinopseDesenho = json['sinopse_do_desenho'];
- personagemProtagonistaDesenho = json['personagem_protagonista_do_desenho'];
- nomeDoDesenho = json['nome_do_desenho'];
- quantidadeDeEpDesenho = json['quantidade_de_ep_do_desenho'];
+ nomeDesenho = json['nome_desenho'];
+ criadorDesenho = json['criador_desenho'];
+  protagonistaDesenho = json['protagonista_desenho'];
+ sinopseDesenho = json['sinopse_desenho'];
+ quantidadeEpDesenho = json['quantidade_episodios_desenho'];
+ quantidadeTempDesenho = json['quantidade_temporadas_desenho'];
+ classificacaoIndicativaDesenho = json['classificacao_indicativa_desenho'];
  }
 }

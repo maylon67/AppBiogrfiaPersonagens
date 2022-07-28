@@ -2,28 +2,40 @@ import 'package:app_personagens_biografia/app_config.dart';
 
 class SeriesModels{
   String nomeSerie = '';
+  String criadorSerie = '';
+  String protagonistaSerie = '';
   String sinopseSerie = '';
+  String studioSerie = '';
+  String studioDublagemBrSerie = '';
   String generoSerie = '';
   String lancamentoSerie = '';
-  String numeroEpisodiosSerie = '';
+  int numeroEpSerie = 0;
+  int numeroTempSerie = 0;
   String classificacaoIndicativaSerie = '';
-  String paisMaisFamosoSerie = '';
   SeriesModels(
     this.nomeSerie,
+    this.criadorSerie,
+    this.protagonistaSerie,
     this.sinopseSerie,
+    this.studioSerie,
+    this.studioDublagemBrSerie,
     this.generoSerie,
     this.lancamentoSerie,
-    this.numeroEpisodiosSerie,
-    this.classificacaoIndicativaSerie,
-    this.paisMaisFamosoSerie,
+    this.numeroEpSerie,
+    this.numeroTempSerie,
+    this.classificacaoIndicativaSerie,  
   );
    SeriesModels.fromJson(mapSD json){
-   nomeSerie = json['nome_serie'].toString();
-   sinopseSerie = json['sinopse_serie'].toString();
-   generoSerie = json['genero_serie'].toString();
-   lancamentoSerie = json['lancamento_serie'].toString();
-   numeroEpisodiosSerie = json['numero_episodios_serie'].toString();
-   classificacaoIndicativaSerie = json['class_indicativa_serie'].toString();
-   paisMaisFamosoSerie = json['pais_mais_famoso_serie'].toString();
+   nomeSerie = json['nome_serie'];
+   protagonistaSerie = json['protagonista_serie'];
+   criadorSerie = json['criador_serie'];
+   sinopseSerie = json['sinopse_serie'];
+   sinopseSerie = json['studio_serie'];
+   studioDublagemBrSerie = json['studio_dublagem_br_serie'];
+   generoSerie = json['genero_serie'];
+   lancamentoSerie = json['lancamento_serie'];
+   numeroEpSerie = json['numero_episodios_serie'];
+   numeroTempSerie = json['numero_temporadas_serie'];
+   classificacaoIndicativaSerie = json['class_indicativa_serie'];
   }
 } 

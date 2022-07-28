@@ -1,3 +1,4 @@
+import 'package:app_personagens_biografia/ui/configurar_conta.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:app_personagens_biografia/app_config.dart';
@@ -35,7 +36,7 @@ class _AlteracoesPageState extends State<AlteracoesPage> {
             color: corPadraoPersonagensApp,
           ),
           GestureDetector(
-            onTap: () {},
+            onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => ConfigurarConta(),)),
             child: Row(
               children: <Widget>[
                 SizedBox(
