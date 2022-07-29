@@ -22,8 +22,8 @@ class _JogosPageState extends State<JogosPage> {
           style: GoogleFonts.permanentMarker(
               color: Color(0xFFe39c0e), fontSize: 26),
         ),
-        centerTitle: true,
         backgroundColor: Color.fromARGB(255, 19, 18, 18),
+        centerTitle: true,
         leading: Icon(Ionicons.menu_outline,
             color: corPadraoPersonagensApp, size: 40),
         actions: [

@@ -5,6 +5,7 @@ class FilmeModels{
   String diretorFilme = '';
   String tempoFilme = '';
   String protagonistaFilme = '';
+  String sinopseFilme = '';
   String studioDoFilme = '';
   String studioDublagemBrFilme = '';
   String lancamentoFilme = '';
@@ -15,6 +16,7 @@ class FilmeModels{
     this.diretorFilme,
     this.tempoFilme,
     this.protagonistaFilme,
+    this.sinopseFilme,
     this.studioDoFilme,
     this.studioDublagemBrFilme,
     this.lancamentoFilme,
@@ -26,6 +28,7 @@ class FilmeModels{
   diretorFilme = json['diretor_filme'];
   tempoFilme = json['tempo_do_filme'];
   protagonistaFilme = json['protagonista_do_filme'];
+  sinopseFilme = json['sinopse_filme'];
   studioDoFilme = json['studio_do_filme'];
   studioDublagemBrFilme = json['studio_dublagem_br_filme'];
   lancamentoFilme = json['lancamento_filme'];

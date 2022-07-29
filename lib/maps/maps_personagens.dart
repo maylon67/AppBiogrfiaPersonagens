@@ -56,14 +56,15 @@ mapSD jsonTest = {
 
 "filmes":[
 {
-  'nome_do_filme':'Zelador Animal',
-  'diretor_filme':'',
-  'tempo_do_filme':'1 hora e 52 minutos',
-  'protagonista_do_filme':'Griffin',
-  'studio_do_filme':'Columbia Pictures',
-  'studio_dublagem_br_filme':'',
-  'lancamneto_filme':'',
-  'genero_do_filme':'Comédia/Romance',
+  'nome_do_filme':'Homes-Aranha',
+  'diretor_filme':'Sam Raimi',
+  'tempo_do_filme':'2h1m',
+  'protagonista_do_filme':'Peter Parker',
+  'sinopse_filme':'',
+  'studio_do_filme':'Sony Pictures',
+  'studio_dublagem_br_filme':'Delart',
+  'lancamneto_filme':'17/05/2002',
+  'genero_do_filme':'Ação, Filme de super-herói, Aventura, Fantasia, Ficção cientifica',
   'classificacao_indicativa_do_filme':'Livre',
 }
 ],

@@ -29,9 +29,9 @@ class _MainPageState extends State<MainPage> {
           'Biografia de Personagens',
           style: GoogleFonts.permanentMarker(
               color: Color(0xFFe39c0e), fontSize: 26),
-          textAlign: TextAlign.center,
         ),
         backgroundColor: Color.fromARGB(255, 19, 18, 18),
+        centerTitle: true,
       ),
       body:SizedBox(
         height:height(context)*0.98,

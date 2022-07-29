@@ -20,7 +20,7 @@ class DesenhoModels{
  DesenhoModels.fromJson(mapSD json){
  nomeDesenho = json['nome_desenho'];
  criadorDesenho = json['criador_desenho'];
-  protagonistaDesenho = json['protagonista_desenho'];
+ protagonistaDesenho = json['protagonista_desenho'];
  sinopseDesenho = json['sinopse_desenho'];
  quantidadeEpDesenho = json['quantidade_episodios_desenho'];
  quantidadeTempDesenho = json['quantidade_temporadas_desenho'];

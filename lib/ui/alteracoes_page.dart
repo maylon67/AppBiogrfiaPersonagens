@@ -24,9 +24,9 @@ class _AlteracoesPageState extends State<AlteracoesPage> {
           'Alterações',
           style: GoogleFonts.permanentMarker(
               color: Color(0xFFe39c0e), fontSize: 26),
-          textAlign: TextAlign.center,
         ),
         backgroundColor: Color.fromARGB(255, 19, 18, 18),
+        centerTitle: true,
       ),
       body: Column(
         children: [

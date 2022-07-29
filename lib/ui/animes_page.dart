@@ -17,10 +17,10 @@ class _AnimesPageState extends State<AnimesPage> {
         title: Text(
           'Animes',
           style: GoogleFonts.permanentMarker(
-              color: Color(0xFFe39c0e), fontSize: 26),
-          textAlign: TextAlign.center,
+              color: Color.fromARGB(255, 227, 156, 14), fontSize: 26),
         ),
         backgroundColor: Color.fromARGB(255, 19, 18, 18),
+        centerTitle: true,
       ),
       body: Container(),
     );
