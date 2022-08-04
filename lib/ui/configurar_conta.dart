@@ -24,8 +24,8 @@ class _ConfigurarContaState extends State<ConfigurarConta> {
         shape: UnderlineInputBorder(
             borderSide: BorderSide(
           color: Color.fromARGB(255, 0, 0, 0),
-        )),
-        foregroundColor: corPadraoPersonagensApp,  
+        ),
+       ),
       ),
       backgroundColor: colorScaffoldPersonagensApp,
       body: SingleChildScrollView(

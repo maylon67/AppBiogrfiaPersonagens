@@ -22,7 +22,10 @@ class _AnimesPageState extends State<AnimesPage> {
         backgroundColor: Color.fromARGB(255, 19, 18, 18),
         centerTitle: true,
       ),
-      body: Container(),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [],
+      ),
     );
   }
 }

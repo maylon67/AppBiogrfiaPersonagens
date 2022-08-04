@@ -1,6 +1,7 @@
 import 'package:app_personagens_biografia/app_config.dart';
 
 class AnimesModels{
+  double imagemAnime = 0;
   String nomeAnime = '';
   String criadorAnime = '';
   String protagonistaAnime = '';
@@ -13,6 +14,7 @@ class AnimesModels{
   int numeroTempAnime = -1;
   int classificacaoIndicativaAnime = -1;
   AnimesModels(
+    this.imagemAnime,
     this.nomeAnime,
     this.protagonistaAnime,
     this.criadorAnime,
@@ -26,6 +28,7 @@ class AnimesModels{
     this.classificacaoIndicativaAnime,
   );
    AnimesModels.fromJson(mapSD json){
+   imagemAnime = json['imagem_anime'];
    nomeAnime = json['nome_anime'];
    criadorAnime = json['criador_anime'];
    protagonistaAnime = json['protagonista_anime'];

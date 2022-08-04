@@ -12,6 +12,7 @@ import 'package:app_personagens_biografia/app_config.dart';
 mapSD jsonTest = {
 "animes" : [
   {
+  "imagem_anime":"lib/assets/kratos.png",
   "nome_anime":"Dragon Ball",
   "criador_anime":"Akira Toriyama",
   "protagonista_anime":"Son Goku",

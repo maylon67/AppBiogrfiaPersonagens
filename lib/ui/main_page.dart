@@ -9,7 +9,6 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:app_personagens_biografia/app_config.dart';
 import 'package:ionicons/ionicons.dart';
-
 import 'login_page.dart';
 
 class MainPage extends StatefulWidget {
@@ -56,6 +55,7 @@ class _MainPageState extends State<MainPage> {
                   width: 4.5
                 )
               ),
+              shadowColor: Color(0xFF07D1CA),
               elevation: 17.6,
                child: Column(
                 children: [
@@ -82,6 +82,7 @@ class _MainPageState extends State<MainPage> {
                   width: 4.5
                 )
               ),
+              shadowColor: Color(0xFFC7FF0E),
                elevation: 17.6,
                 child: Column(
                 children: [
@@ -94,7 +95,7 @@ class _MainPageState extends State<MainPage> {
                 ],
                ),
               ),
-            ),
+             ),
              GestureDetector(
               onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => SeriesPage(),)),
                child: Card(
@@ -105,7 +106,8 @@ class _MainPageState extends State<MainPage> {
                    color: Color(0xFFEC0909),
                    width: 4.5
                  ),
-                         ),
+                ),
+               shadowColor: Color(0xFFEC0909), 
                elevation: 17.6,
                 child: Column(
                 children: [
@@ -117,7 +119,7 @@ class _MainPageState extends State<MainPage> {
                   ),)
                 ],
                ),
-                         ),
+              ),
              ),
              GestureDetector(
                onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => FilmrsPage(),)),
@@ -129,7 +131,8 @@ class _MainPageState extends State<MainPage> {
                    color: Color(0xFF0E19E3),
                    width: 4.5
                  )
-                         ),
+               ),
+               shadowColor: Color(0xFF0E19E3),
                elevation: 17.6,
                 child: Column(
                 children: [
@@ -141,7 +144,7 @@ class _MainPageState extends State<MainPage> {
                   ),)
                 ],
                ),
-                         ),
+              ),
              ),
              GestureDetector(
               onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => JogosPage(),)),
@@ -153,7 +156,8 @@ class _MainPageState extends State<MainPage> {
                    color: Color(0xFFe39c0e),
                    width: 4.5
                  )
-                         ),
+               ),
+               shadowColor: Color(0xFFe39c0e),
                elevation: 17.6,
                child: Column(
                 children: [
@@ -165,7 +169,7 @@ class _MainPageState extends State<MainPage> {
                   ),)
                 ],
                ),
-                         ),
+              ),
              ),
              GestureDetector(
                onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => LivrosPage(),)),
@@ -177,7 +181,8 @@ class _MainPageState extends State<MainPage> {
                    color: Color(0xFF15af0d),
                    width: 4.5
                  ),
-                         ),
+               ),
+               shadowColor: Color(0xFF15af0d),
                elevation: 17.6,
                 child: Column(
                 children: [
@@ -189,7 +194,7 @@ class _MainPageState extends State<MainPage> {
                   ),),
                 ],
                ),
-                         ),
+              ),
              ),
           GestureDetector(
             onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage(),)),
@@ -201,7 +206,8 @@ class _MainPageState extends State<MainPage> {
                 color: Color(0xFF05aa94),
                 width: 4.5
               ),
-              ),
+            ),
+               shadowColor: Color(0xFF05aa94),
                elevation: 17.6,
                 child: Column(
                 children: [
@@ -214,7 +220,7 @@ class _MainPageState extends State<MainPage> {
                 ],
                ),
               ),
-          ),
+             ),
             GestureDetector(
                onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AlteracoesPage(),)),
               child: Card(
@@ -226,6 +232,7 @@ class _MainPageState extends State<MainPage> {
                   width: 4.5
                 ),
               ),
+              shadowColor: Color(0xFF9109F9),
                elevation: 17.6,
                 child: Column(
                 children: [
@@ -238,12 +245,11 @@ class _MainPageState extends State<MainPage> {
                 ],
                ),
               ),
-            ),   
-          ],
-        ),
-      ),
-      )
-       
-    );
-  }
+             ),
+            ],
+           ),
+          ),
+         )
+        );
+       }
 }
