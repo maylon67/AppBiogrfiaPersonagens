@@ -104,7 +104,7 @@ class _JogosPageState extends State<JogosPage> {
               ),
              ),
              GestureDetector(
-              onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => JogosPage(),)),
+             // onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => JogosPage(),)),
                child: Card(
                 color: Color.fromARGB(255, 237, 239, 242),
                 shape: RoundedRectangleBorder(
