@@ -127,16 +127,7 @@ class _JogosPageState extends State<JogosPage> {
                ),
                shadowColor: Color(0xFF0E19E3),
                elevation: 17.6,
-                child: Column(
-                children: [
-                  Padding(padding: EdgeInsets.symmetric(vertical: 23)),
-                  Icon(Ionicons.videocam,size: 90,color: Color(0xFF0e19e3),),
-                  Text('Filmes',style: GoogleFonts.chakraPetch(
-                    color: Color.fromARGB(255, 7, 7, 7),
-                    fontSize: 26
-                  ),)
-                ],
-               ),
+                child: Image.asset('lib/assets/mk11.png')
               ),
              ),
              GestureDetector(
@@ -152,16 +143,7 @@ class _JogosPageState extends State<JogosPage> {
                ),
                shadowColor: Color(0xFFe39c0e),
                elevation: 17.6,
-               child: Column(
-                children: [
-                  Padding(padding: EdgeInsets.symmetric(vertical: 23)),
-                  Icon(Ionicons.game_controller_outline,size: 90,color: Color(0xFFe39c0e),),
-                  Text('Jogos',style: GoogleFonts.chakraPetch(
-                    color: Color.fromARGB(255, 7, 7, 7),
-                    fontSize: 26
-                  ),)
-                ],
-               ),
+               child: Image.asset('lib/assets/fifa.png')
               ),
              ),
              GestureDetector(
@@ -177,16 +159,7 @@ class _JogosPageState extends State<JogosPage> {
                ),
                shadowColor: Color(0xFF15af0d),
                elevation: 17.6,
-                child: Column(
-                children: [
-                  Padding(padding: EdgeInsets.symmetric(vertical: 23)),
-                  Icon(Ionicons.book_outline,size: 90,color: Color(0xFF15AF0D),),
-                  Text('Livros',style: GoogleFonts.chakraPetch(
-                    color: Color.fromARGB(255, 7, 7, 7),
-                    fontSize: 26
-                  ),),
-                ],
-               ),
+                child: Image.asset('lib/assets/nfs.png')
               ),
              ),
           GestureDetector(
