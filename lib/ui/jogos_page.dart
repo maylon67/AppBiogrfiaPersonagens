@@ -50,16 +50,7 @@ class _JogosPageState extends State<JogosPage> {
               ),
               shadowColor: Color(0xFF07D1CA),
               elevation: 17.6,
-               child: Column(
-                children: [
-                  Padding(padding: EdgeInsets.symmetric(vertical: 23)),
-                  Icon(Ionicons.laptop,size: 90,color: Color(0xFF07d1ca),),
-                  Text('Animes',style: GoogleFonts.chakraPetch(
-                    color: Color.fromARGB(255, 7, 7, 7),
-                    fontSize: 26
-                  ),)
-                ],
-               ),
+               child: Image.asset('lib/assets/bully.png'),
               ),
             ),
             GestureDetector(
@@ -77,16 +68,7 @@ class _JogosPageState extends State<JogosPage> {
               ),
               shadowColor: Color(0xFFC7FF0E),
                elevation: 17.6,
-                child: Column(
-                children: [
-                  Padding(padding: EdgeInsets.symmetric(vertical: 23)),
-                  Icon(Ionicons.tv_sharp,size: 90,color: Color(0xFFc7ff0e),),
-                  Text('Desenhos',style: GoogleFonts.chakraPetch(
-                    color: Color.fromARGB(255, 7, 7, 7),
-                    fontSize: 26
-                  ),)
-                ],
-               ),
+                child: Image.asset('lib/assets/dragonballfighterz.png'),
               ),
              ),
              GestureDetector(
@@ -102,16 +84,7 @@ class _JogosPageState extends State<JogosPage> {
                 ),
                shadowColor: Color(0xFFEC0909), 
                elevation: 17.6,
-                child: Column(
-                children: [
-                  Padding(padding: EdgeInsets.symmetric(vertical: 23)),
-                  Icon(Ionicons.easel,size: 90,color: Color(0xFFec0909),),
-                  Text('Séries',style: GoogleFonts.chakraPetch(
-                    color: Color.fromARGB(255, 7, 7, 7),
-                    fontSize: 26
-                  ),)
-                ],
-               ),
+                child: Image.asset('lib/assets/subwaysurfers.png'),
               ),
              ),
              GestureDetector(
