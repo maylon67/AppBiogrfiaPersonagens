@@ -40,13 +40,13 @@ class _AnimesPageState extends State<AnimesPage> {
               child: Card(
                 color: Colors.white,
                 shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(23.0),
+                borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFF07D1CA),
+                  color: Color.fromARGB(255, 11, 67, 220),
                   width: 4.5
                 )
               ),
-              shadowColor: Color(0xFF07D1CA),
+              shadowColor: Color.fromARGB(255, 11, 67, 220),
               elevation: 17.6,
                child: Image.asset('lib/assets/dragonball.png'),
               ),
@@ -56,13 +56,13 @@ class _AnimesPageState extends State<AnimesPage> {
               child: Card(
                 color: Colors.white,
                 shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(23.0),
+                borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFF07D1CA),
+                  color: Color.fromARGB(255, 255, 235, 59),
                   width: 4.5
                 )
               ),
-              shadowColor: Color(0xFF07D1CA),
+              shadowColor: Color.fromARGB(255, 255, 235, 59),
               elevation: 17.6,
                child: Image.asset('lib/assets/dbz.png'),
               ),
@@ -72,13 +72,13 @@ class _AnimesPageState extends State<AnimesPage> {
               child: Card(
                 color: Colors.white,
                 shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(23.0),
+                borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFF07D1CA),
+                  color: Color.fromARGB(255, 244, 67, 54),
                   width: 4.5
                 )
               ),
-              shadowColor: Color(0xFF07D1CA),
+              shadowColor: Color.fromARGB(255, 244, 67, 54),
               elevation: 17.6,
                child: Image.asset('lib/assets/dbgt.png'),
               ),
@@ -88,13 +88,13 @@ class _AnimesPageState extends State<AnimesPage> {
               child: Card(
                 color: Colors.white,
                 shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(23.0),
+                borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFF07D1CA),
+                  color: Color.fromARGB(255, 99, 185, 255),
                   width: 4.5
                 )
               ),
-              shadowColor: Color(0xFF07D1CA),
+              shadowColor: Color.fromARGB(255, 99, 185, 255),
               elevation: 17.6,
                child: Image.asset('lib/assets/dbkai.png'),
               ),
@@ -104,13 +104,13 @@ class _AnimesPageState extends State<AnimesPage> {
               child: Card(
                 color: Colors.white,
                 shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(23.0),
+                borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFF07D1CA),
+                  color: Color.fromARGB(255, 255, 235, 59),
                   width: 4.5
                 )
               ),
-              shadowColor: Color(0xFF07D1CA),
+              shadowColor: Color.fromARGB(255, 255, 235, 59),
               elevation: 17.6,
                child: Image.asset('lib/assets/dbs.png'),
               ),
@@ -120,13 +120,13 @@ class _AnimesPageState extends State<AnimesPage> {
               child: Card(
                 color: Colors.white,
                 shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(23.0),
+                borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFF07D1CA),
+                  color: Color.fromARGB(255, 255, 152, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color(0xFF07D1CA),
+              shadowColor: Color.fromARGB(255, 255, 152, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/sdbh.png'),
               ),
@@ -136,13 +136,13 @@ class _AnimesPageState extends State<AnimesPage> {
               child: Card(
                 color: Colors.white,
                 shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(23.0),
+                borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFF07D1CA),
+                  color: Color.fromARGB(255, 255, 152, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color(0xFF07D1CA),
+              shadowColor: Color.fromARGB(255, 255, 152, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/naruto.png'),
               ),
@@ -152,13 +152,13 @@ class _AnimesPageState extends State<AnimesPage> {
               child: Card(
                 color: Colors.white,
                 shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(23.0),
+                borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFF07D1CA),
+                  color: Color.fromARGB(255, 255, 152, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color(0xFF07D1CA),
+              shadowColor: Color.fromARGB(255, 255, 152, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/narutoshippuden.png'),
               ),
@@ -168,13 +168,13 @@ class _AnimesPageState extends State<AnimesPage> {
               child: Card(
                 color: Colors.white,
                 shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(23.0),
+                borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFF07D1CA),
+                  color: Color.fromARGB(255, 206, 37, 99),
                   width: 4.5
                 )
               ),
-              shadowColor: Color(0xFF07D1CA),
+              shadowColor: Color.fromARGB(255, 206, 37, 99),
               elevation: 17.6,
                child: Image.asset('lib/assets/boruto.png'),
               ),
@@ -186,13 +186,13 @@ class _AnimesPageState extends State<AnimesPage> {
               child: Card(
                 color: Colors.white,
                 shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(23.0),
+                borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFFC7FF0E),
+                  color: Color.fromARGB(255, 233, 30, 99),
                   width: 4.5
                 )
               ),
-              shadowColor: Color(0xFFC7FF0E),
+              shadowColor: Color.fromARGB(255, 233, 30, 99),
                elevation: 17.6,
                 child: Image.asset('lib/assets/jojo.png'),
               ),
@@ -202,13 +202,13 @@ class _AnimesPageState extends State<AnimesPage> {
                child: Card(
                 color: Colors.white,
                 shape: RoundedRectangleBorder(
-                 borderRadius: BorderRadius.circular(23.0),
+                 borderRadius: BorderRadius.zero,
                  side: BorderSide(
-                   color: Color(0xFFEC0909),
+                   color: Color.fromARGB(255, 0, 0, 0),
                    width: 4.5
                  ),
                 ),
-               shadowColor: Color(0xFFEC0909), 
+               shadowColor: Color.fromARGB(255, 0, 0, 0), 
                elevation: 17.6,
                 child: Image.asset('lib/assets/deathnote.png'),
               ),
@@ -218,13 +218,13 @@ class _AnimesPageState extends State<AnimesPage> {
                child: Card(
                 color: Color.fromARGB(255, 243, 244, 244),
                 shape: RoundedRectangleBorder(
-                 borderRadius: BorderRadius.circular(23.0),
+                 borderRadius: BorderRadius.zero,
                  side: BorderSide(
-                   color: Color(0xFF0E19E3),
+                   color: Color.fromARGB(255, 244, 67, 54),
                    width: 4.5
                  )
                ),
-               shadowColor: Color(0xFF0E19E3),
+               shadowColor: Color.fromARGB(255, 244, 67, 54),
                elevation: 17.6,
                 child: Image.asset('lib/assets/kimetsu.png')
               ),
@@ -234,13 +234,13 @@ class _AnimesPageState extends State<AnimesPage> {
                child: Card(
                 color: Color.fromARGB(255, 237, 239, 242),
                 shape: RoundedRectangleBorder(
-                 borderRadius: BorderRadius.circular(23.0),
+                 borderRadius: BorderRadius.zero,
                  side: BorderSide(
-                   color: Color(0xFFe39c0e),
+                   color: Color.fromARGB(255, 255, 235, 59),
                    width: 4.5
                  )
                ),
-               shadowColor: Color(0xFFe39c0e),
+               shadowColor: Color.fromARGB(255, 255, 235, 59),
                elevation: 17.6,
                child: Image.asset('lib/assets/bokunohero.png')
               ),
@@ -250,13 +250,13 @@ class _AnimesPageState extends State<AnimesPage> {
                child: Card(
                 color: Color.fromARGB(255, 250, 249, 248),
                 shape: RoundedRectangleBorder(
-                 borderRadius: BorderRadius.circular(23.0),
+                 borderRadius: BorderRadius.zero,
                  side: BorderSide(
-                   color: Color(0xFF15af0d),
+                   color: Color.fromARGB(255, 158, 158, 158),
                    width: 4.5
                  ),
                ),
-               shadowColor: Color(0xFF15af0d),
+               shadowColor: Color.fromARGB(255, 158, 158, 158),
                elevation: 17.6,
                 child: Image.asset('lib/assets/shingeki.png')
               ),
@@ -264,15 +264,15 @@ class _AnimesPageState extends State<AnimesPage> {
           GestureDetector(
             //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage(),)),
             child: Card(
-                color: Color.fromARGB(255, 250, 249, 248),
+                color: Colors.white,
                 shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(18.0),
+              borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color(0xFF05aa94),
+                color: Color.fromARGB(255, 33, 150, 243),
                 width: 4.5
               ),
             ),
-               shadowColor: Color(0xFF05aa94),
+               shadowColor: Color.fromARGB(255, 33, 150, 243),
                elevation: 17.6,
                 child: Image.asset('lib/assets/onepiece.png'),
               ),
@@ -282,13 +282,13 @@ class _AnimesPageState extends State<AnimesPage> {
               child: Card(
                 color: Colors.white,
                 shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(23.0),
+                borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFF07D1CA),
+                  color: Color.fromARGB(255, 244, 67, 54),
                   width: 4.5
                 )
               ),
-              shadowColor: Color(0xFF07D1CA),
+              shadowColor: Color.fromARGB(255, 244, 67, 54),
               elevation: 17.6,
                child: Image.asset('lib/assets/onepunchman.png'),
               ),
@@ -298,13 +298,13 @@ class _AnimesPageState extends State<AnimesPage> {
             /*Qual o tamanho de 10x15 Impressão de fotos no tamanho 10,2 cm de largura por 15,2 cm de comprimento*/
                 child: Image.asset('lib/assets/nanatsu.png',),
                 shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(18.0),
+                borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFF0685DA),
+                  color: Color.fromARGB(255, 255, 152, 0),
                   width: 4.5
                 ),
               ),
-                 shadowColor: Color(0xFF0685da),
+                 shadowColor: Color.fromARGB(255, 255, 152, 0),
                  elevation: 17.6,
               ),
             ),
@@ -313,13 +313,13 @@ class _AnimesPageState extends State<AnimesPage> {
               child: Card(
                 color: Colors.white,
                 shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(23.0),
+                borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFF07D1CA),
+                  color: Color.fromARGB(255, 76, 175, 80),
                   width: 4.5
                 )
               ),
-              shadowColor: Color(0xFF07D1CA),
+              shadowColor: Color.fromARGB(255, 76, 175, 80),
               elevation: 17.6,
                child: Image.asset('lib/assets/hxh.png'),
               ),
@@ -329,13 +329,13 @@ class _AnimesPageState extends State<AnimesPage> {
               child: Card(
                 color: Colors.white,
                 shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(23.0),
+                borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFF07D1CA),
+                  color: Color.fromARGB(255, 255, 235, 59),
                   width: 4.5
                 )
               ),
-              shadowColor: Color(0xFF07D1CA),
+              shadowColor: Color.fromARGB(255, 255, 235, 59),
               elevation: 17.6,
                child: Image.asset('lib/assets/pokemon.png'),
               ),
@@ -345,15 +345,31 @@ class _AnimesPageState extends State<AnimesPage> {
               child: Card(
                 color: Colors.white,
                 shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(23.0),
+                borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFF07D1CA),
+                  color: Color.fromARGB(255, 244, 67, 54),
                   width: 4.5
                 )
               ),
-              shadowColor: Color(0xFF07D1CA),
+              shadowColor: Color.fromARGB(255, 244, 67, 54),
               elevation: 17.6,
-               child: Image.asset('lib/assets/fairytail.png'),
+               child: Image.asset('lib/assets/bakugan.png'),
+              ),
+            ),
+             GestureDetector(
+              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
+              child: Card(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+                side: BorderSide(
+                  color: Color.fromARGB(255, 33, 150, 243),
+                  width: 4.5
+                )
+              ),
+              shadowColor: Color.fromARGB(255, 33, 150, 243),
+              elevation: 17.6,
+               child: Image.asset('lib/assets/beyblade.png'),
               ),
             ),
             GestureDetector(
@@ -361,13 +377,13 @@ class _AnimesPageState extends State<AnimesPage> {
               child: Card(
                 color: Colors.white,
                 shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(23.0),
+                borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFF07D1CA),
+                  color: Color.fromARGB(255, 244, 67, 54),
                   width: 4.5
                 )
               ),
-              shadowColor: Color(0xFF07D1CA),
+              shadowColor: Color.fromARGB(255, 244, 67, 54),
               elevation: 17.6,
                child: Image.asset('lib/assets/yu-gi-oh.png'),
               ),
@@ -377,15 +393,31 @@ class _AnimesPageState extends State<AnimesPage> {
               child: Card(
                 color: Colors.white,
                 shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(23.0),
+                borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFF07D1CA),
+                  color: Color.fromARGB(255, 255, 152, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color(0xFF07D1CA),
+              shadowColor: Color.fromARGB(255, 255, 152, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/superonze.png'),
+              ),
+            ),
+             GestureDetector(
+              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
+              child: Card(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+                side: BorderSide(
+                  color: Color.fromARGB(255, 0, 0, 0),
+                  width: 4.5
+                )
+              ),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
+              elevation: 17.6,
+               child: Image.asset('lib/assets/capitaotsubasa.png'),
               ),
             ),
             GestureDetector(
@@ -393,15 +425,255 @@ class _AnimesPageState extends State<AnimesPage> {
               child: Card(
                 color: Colors.white,
                 shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(23.0),
+                borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFF07D1CA),
+                  color: Color.fromARGB(255, 244, 67, 54),
                   width: 4.5
                 )
               ),
-              shadowColor: Color(0xFF07D1CA),
+              shadowColor: Color.fromARGB(255, 244, 67, 54),
               elevation: 17.6,
                child: Image.asset('lib/assets/bleach.png'),
+              ),
+            ),
+             GestureDetector(
+              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
+              child: Card(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+                side: BorderSide(
+                  color: Color.fromARGB(255, 0, 0, 0),
+                  width: 4.5
+                )
+              ),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
+              elevation: 17.6,
+               child: Image.asset('lib/assets/akamegakill.png'),
+              ),
+            ),
+             GestureDetector(
+              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
+              child: Card(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+                side: BorderSide(
+                  color: Color.fromARGB(255, 244, 67, 54),
+                  width: 4.5
+                )
+              ),
+              shadowColor: Color.fromARGB(255, 244, 67, 54),
+              elevation: 17.6,
+               child: Image.asset('lib/assets/fullmetal.png'),
+              ),
+            ),
+             GestureDetector(
+              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
+              child: Card(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+                side: BorderSide(
+                  color: Color.fromARGB(255, 244, 67, 54),
+                  width: 4.5
+                )
+              ),
+              shadowColor: Color.fromARGB(255, 244, 67, 54),
+              elevation: 17.6,
+               child: Image.asset('lib/assets/fairytail.png'),
+              ),
+            ),
+             GestureDetector(
+              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
+              child: Card(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+                side: BorderSide(
+                  color: Color.fromARGB(255, 255, 152, 0),
+                  width: 4.5
+                )
+              ),
+              shadowColor: Color.fromARGB(255, 255, 152, 0),
+              elevation: 17.6,
+               child: Image.asset('lib/assets/drstone.png'),
+              ),
+            ),
+             GestureDetector(
+              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
+              child: Card(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+                side: BorderSide(
+                  color: Color.fromARGB(255, 0, 0, 0),
+                  width: 4.5
+                )
+              ),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
+              elevation: 17.6,
+               child: Image.asset('lib/assets/spyxfamily.png'),
+              ),
+            ),
+             GestureDetector(
+              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
+              child: Card(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+                side: BorderSide(
+                  color: Color.fromARGB(255, 0, 0, 0),
+                  width: 4.5
+                )
+              ),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
+              elevation: 17.6,
+               child: Image.asset('lib/assets/beastars.png'),
+              ),
+            ),
+             GestureDetector(
+              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
+              child: Card(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+                side: BorderSide(
+                  color: Color.fromARGB(255, 152, 70, 224),
+                  width: 4.5
+                )
+              ),
+              shadowColor: Color.fromARGB(255, 152, 70, 224),
+              elevation: 17.6,
+               child: Image.asset('lib/assets/edenszero.png'),
+              ),
+            ),
+             GestureDetector(
+              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
+              child: Card(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+                side: BorderSide(
+                  color: Color.fromARGB(255, 152, 70, 224),
+                  width: 4.5
+                )
+              ),
+              shadowColor: Color.fromARGB(255, 152, 70, 224),
+              elevation: 17.6,
+               child: Image.asset('lib/assets/rezero.png'),
+              ),
+            ),
+             GestureDetector(
+              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
+              child: Card(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+                side: BorderSide(
+                  color: Color.fromARGB(255, 255, 152, 0),
+                  width: 4.5
+                )
+              ),
+              shadowColor: Color.fromARGB(255, 255, 152, 0),
+              elevation: 17.6,
+               child: Image.asset('lib/assets/shamanking.png'),
+              ),
+            ),
+             GestureDetector(
+              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
+              child: Card(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+                side: BorderSide(
+                  color: Color.fromARGB(255, 0, 0, 0),
+                  width: 4.5
+                )
+              ),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
+              elevation: 17.6,
+               child: Image.asset('lib/assets/assassinationclass.png'),
+              ),
+            ),
+             GestureDetector(
+              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
+              child: Card(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+                side: BorderSide(
+                  color: Color.fromARGB(255, 0, 0, 0),
+                  width: 4.5
+                )
+              ),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
+              elevation: 17.6,
+               child: Image.asset('lib/assets/kakeguruy.png'),
+              ),
+            ),
+             GestureDetector(
+              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
+              child: Card(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+                side: BorderSide(
+                  color: Color.fromARGB(255, 7, 209, 202),
+                  width: 4.5
+                )
+              ),
+              shadowColor: Color.fromARGB(255, 7, 209, 202),
+              elevation: 17.6,
+               child: Image.asset('lib/assets/sao.png'),
+              ),
+            ),
+             GestureDetector(
+              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
+              child: Card(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+                side: BorderSide(
+                  color: Color.fromARGB(255, 0, 0, 0),
+                  width: 4.5
+                )
+              ),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
+              elevation: 17.6,
+               child: Image.asset('lib/assets/pronever.png'),
+              ),
+            ),
+            GestureDetector(
+              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
+              child: Card(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+                side: BorderSide(
+                  color: Color.fromARGB(255, 0, 0, 0),
+                  width: 4.5
+                )
+              ),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
+              elevation: 17.6,
+               child: Image.asset('lib/assets/tokyoghoul.png'),
+              ),
+            ),
+             GestureDetector(
+              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
+              child: Card(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+                side: BorderSide(
+                  color: Color.fromARGB(255, 0, 0, 0),
+                  width: 4.5
+                )
+              ),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
+              elevation: 17.6,
+               child: Image.asset('lib/assets/tokyorevengers.png'),
               ),
             ),
             ],
