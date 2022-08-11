@@ -389,18 +389,18 @@ class _SeriesPageState extends State<SeriesPage> {
              ),
               GestureDetector(
             //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage(),)),
-            child: Card(
+            child: Card( 
                 color: Color.fromARGB(255, 250, 249, 248),
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color(0xFFFBF70D),
+                color: Color(0xFFCA0A0A),
                 width: 4.5
               ),
             ),
-               shadowColor: Color(0xFFfbf70d),
+               shadowColor: Color(0xFFca0a0a),
                elevation: 17.6,
-                child: Image.asset('lib/assets/ff.png'),
+                child: Image.asset('lib/assets/titas.png'),
               ),
              ),
               GestureDetector(
@@ -410,189 +410,13 @@ class _SeriesPageState extends State<SeriesPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color(0xFFE61010),
+                color: Color(0xFF10D134),
                 width: 4.5
               ),
             ),
-               shadowColor: Color(0xFFe61010),
+               shadowColor: Color(0xFF10d134),
                elevation: 17.6,
-                child: Image.asset('lib/assets/vava.png'),
-              ),
-             ),
-              GestureDetector(
-            //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage(),)),
-            child: Card(
-                color: Color.fromARGB(255, 250, 249, 248),
-                shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.zero,
-              side: BorderSide(
-                color: Color(0xFFEA6A09),
-                width: 4.5
-              ),
-            ),
-               shadowColor: Color(0xFFea6a09),
-               elevation: 17.6,
-                child: Image.asset('lib/assets/royale.png'),
-              ),
-             ),
-             GestureDetector(
-            //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage(),)),
-            child: Card(
-                color: Color.fromARGB(255, 250, 249, 248),
-                shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.zero,
-              side: BorderSide(
-                color: Color(0xFF0EB4F0),
-                width: 4.5
-              ),
-            ),
-               shadowColor: Color(0xFF0eb4f0),
-               elevation: 17.6,
-                child: Image.asset('lib/assets/clans.png'),
-              ),
-             ), 
-              GestureDetector(
-            //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage(),)),
-            child: Card(
-                color: Color.fromARGB(255, 250, 249, 248),
-                shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.zero,
-              side: BorderSide(
-                color: Color(0xFFA71010),
-                width: 4.5
-              ),
-            ),
-               shadowColor: Color(0xFFa71010),
-               elevation: 17.6,
-                child: Image.asset('lib/assets/six.png'),
-              ),
-             ),
-              GestureDetector(
-            //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage(),)),
-            child: Card(
-                color: Color.fromARGB(255, 250, 249, 248),
-                shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.zero,
-              side: BorderSide(
-                color: Color(0xFFD1F40F),
-                width: 4.5
-              ),
-            ),
-               shadowColor: Color(0xFFd1f40f),
-               elevation: 17.6,
-                child: Image.asset('lib/assets/apex.png'),
-              ),
-             ),
-              GestureDetector(
-            //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage(),)),
-            child: Card(
-                color: Color.fromARGB(255, 250, 249, 248),
-                shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.zero,
-              side: BorderSide(
-                color: Color(0xFF03EB64),
-                width: 4.5
-              ),
-            ),
-               shadowColor: Color(0xFF03eb64),
-               elevation: 17.6,
-                child: Image.asset('lib/assets/ufc.png'),
-              ),
-             ),
-              GestureDetector(
-            //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage(),)),
-            child: Card(
-                color: Color.fromARGB(255, 250, 249, 248),
-                shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.zero,
-              side: BorderSide(
-                color: Color(0xFFC0770B),
-                width: 4.5
-              ),
-            ),
-               shadowColor: Color(0xFFc0770b),
-               elevation: 17.6,
-                child: Image.asset('lib/assets/pou.png'),
-              ),
-             ),
-              GestureDetector(
-            //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage(),)),
-            child: Card(
-                color: Color.fromARGB(255, 250, 249, 248),
-                shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.zero,
-              side: BorderSide(
-                color: Color(0xFFbe1414),
-                width: 4.5
-              ),
-            ),
-               shadowColor: Color(0xFFBE1414),
-               elevation: 17.6,
-                child: Image.asset('lib/assets/amongus.png'),
-              ),
-             ),
-              GestureDetector(
-            //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage(),)),
-            child: Card(
-                color: Color.fromARGB(255, 250, 249, 248),
-                shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.zero,
-              side: BorderSide(
-                color: Color(0xFF0A83F4),
-                width: 4.5
-              ),
-            ),
-               shadowColor: Color(0xFF0a83f4),
-               elevation: 17.6,
-                child: Image.asset('lib/assets/inazuma.png'),
-              ),
-             ),
-              GestureDetector(
-            //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage(),)),
-            child: Card(
-                color: Color.fromARGB(255, 250, 249, 248),
-                shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.zero,
-              side: BorderSide(
-                color: Color(0xFF090909),
-                width: 4.5
-              ),
-            ),
-               shadowColor: Color(0xFF090909),
-               elevation: 17.6,
-                child: Image.asset('lib/assets/tsubasa.png'),
-              ),
-             ),
-              GestureDetector(
-            //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage(),)),
-            child: Card(
-                color: Color.fromARGB(255, 250, 249, 248),
-                shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.zero,
-              side: BorderSide(
-                color: Color(0xFF81D907),
-                width: 4.5
-              ),
-            ),
-               shadowColor: Color(0xFF81d907),
-               elevation: 17.6,
-                child: Image.asset('lib/assets/zombie.png'),
-              ),
-             ),
-              GestureDetector(
-            //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage(),)),
-            child: Card(
-                color: Color.fromARGB(255, 250, 249, 248),
-                shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.zero,
-              side: BorderSide(
-                color: Color(0xFF2141F8),
-                width: 4.5
-              ),
-            ),
-               shadowColor: Color(0xFF2141f8),
-               elevation: 17.6,
-                child: Image.asset('lib/assets/pokemonn.png'),
+                child: Image.asset('lib/assets/hulk.png'),
               ),
              ),
               GestureDetector(
@@ -608,7 +432,151 @@ class _SeriesPageState extends State<SeriesPage> {
             ),
                shadowColor: Color(0xFF000000),
                elevation: 17.6,
-                child: Image.asset('lib/assets/days.png'),
+                child: Image.asset('lib/assets/manifest.png'),
+              ),
+             ),
+             GestureDetector(
+            //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage(),)),
+            child: Card(
+                color: Color.fromARGB(255, 250, 249, 248),
+                shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.zero,
+              side: BorderSide(
+                color: Color(0xFFddcb09),
+                width: 4.5
+              ),
+            ),
+               shadowColor: Color(0xFFDDCB09),
+               elevation: 17.6,
+                child: Image.asset('lib/assets/boys.png'),
+              ),
+             ), 
+              GestureDetector(
+            //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage(),)),
+            child: Card(
+                color: Color.fromARGB(255, 250, 249, 248),
+                shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.zero,
+              side: BorderSide(
+                color: Color(0xFFE11010),
+                width: 4.5
+              ),
+            ),
+               shadowColor: Color(0xFFe11010),
+               elevation: 17.6,
+                child: Image.asset('lib/assets/list.png'),
+              ),
+             ),
+              GestureDetector(
+            //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage(),)),
+            child: Card(
+                color: Color.fromARGB(255, 250, 249, 248),
+                shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.zero,
+              side: BorderSide(
+                color: Color(0xFF0881BD),
+                width: 4.5
+              ),
+            ),
+               shadowColor: Color(0xFF0881bd),
+               elevation: 17.6,
+                child: Image.asset('lib/assets/sob.png'),
+              ),
+             ),
+              GestureDetector(
+            //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage(),)),
+            child: Card(
+                color: Color.fromARGB(255, 250, 249, 248),
+                shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.zero,
+              side: BorderSide(
+                color: Color(0xFF2cb50a),
+                width: 4.5
+              ),
+            ),
+               shadowColor: Color(0xFF2CB50A),
+               elevation: 17.6,
+                child: Image.asset('lib/assets/ferro.png'),
+              ),
+             ),
+              GestureDetector(
+            //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage(),)),
+            child: Card(
+                color: Color.fromARGB(255, 250, 249, 248),
+                shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.zero,
+              side: BorderSide(
+                color: Color(0xFFF5E90B),
+                width: 4.5
+              ),
+            ),
+               shadowColor: Color(0xFFF5e90b),
+               elevation: 17.6,
+                child: Image.asset('lib/assets/luke.png'),
+              ),
+             ),
+              GestureDetector(
+            //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage(),)),
+            child: Card(
+                color: Color.fromARGB(255, 250, 249, 248),
+                shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.zero,
+              side: BorderSide(
+                color: Color(0xFF010101),
+                width: 4.5
+              ),
+            ),
+               shadowColor: Color(0xFF010101),
+               elevation: 17.6,
+                child: Image.asset('lib/assets/sunderland.png'),
+              ),
+             ),
+              GestureDetector(
+            //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage(),)),
+            child: Card(
+                color: Color.fromARGB(255, 250, 249, 248),
+                shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.zero,
+              side: BorderSide(
+                color: Color(0xFFF40A0A),
+                width: 4.5
+              ),
+            ),
+               shadowColor: Color(0xFFf40a0a),
+               elevation: 17.6,
+                child: Image.asset('lib/assets/chucky.png'),
+              ),
+             ),
+              GestureDetector(
+            //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage(),)),
+            child: Card(
+                color: Color.fromARGB(255, 250, 249, 248),
+                shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.zero,
+              side: BorderSide(
+                color: Color(0xFFF9F50D),
+                width: 4.5
+              ),
+            ),
+               shadowColor: Color(0xFFf9f50d),
+               elevation: 17.6,
+                child: Image.asset('lib/assets/henry.png'),
+              ),
+             ),
+              GestureDetector(
+            //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage(),)),
+            child: Card(
+                color: Color.fromARGB(255, 250, 249, 248),
+                shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.zero,
+              side: BorderSide(
+                color: Color(0xFF0C5BE2),
+                width: 4.5
+              ),
+            ),
+               shadowColor: Color(0xFF0c5be2),
+               elevation: 17.6,
+                child: Image.asset('lib/assets/shakers.png'),
               ),
              ),
               GestureDetector(
@@ -624,7 +592,7 @@ class _SeriesPageState extends State<SeriesPage> {
             ),
                shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
-                child: Image.asset('lib/assets/rezend.png'),
+                child: Image.asset('lib/assets/jurassic.png'),
               ),
              ),
               GestureDetector(
@@ -634,13 +602,13 @@ class _SeriesPageState extends State<SeriesPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color(0xFF0D7FF8),
+                color: Color(0xFFAF1212),
                 width: 4.5
               ),
             ),
-               shadowColor: Color(0xFF0d7ff8),
+               shadowColor: Color(0xFFaf1212),
                elevation: 17.6,
-                child: Image.asset('lib/assets/overcoked.png'),
+                child: Image.asset('lib/assets/justiceiro.png'),
               ),
              ),
               GestureDetector(
@@ -650,13 +618,13 @@ class _SeriesPageState extends State<SeriesPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color(0xFFF11313),
+                color: Color(0xFF0767CD),
                 width: 4.5
               ),
             ),
-               shadowColor: Color(0xFFf11313),
+               shadowColor: Color(0xFF0767cd),
                elevation: 17.6,
-                child: Image.asset('lib/assets/stray.png'),
+                child: Image.asset('lib/assets/soldado.png'),
               ),
              ),
               GestureDetector(
@@ -666,13 +634,45 @@ class _SeriesPageState extends State<SeriesPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color(0xFF68c406),
+                color: Color(0xFFD70B0B),
                 width: 4.5
               ),
             ),
-               shadowColor: Color(0xFF68C406),
+               shadowColor: Color(0xFFd70b0b),
                elevation: 17.6,
-                child: Image.asset('lib/assets/b10.png'),
+                child: Image.asset('lib/assets/dpa.png'),
+              ),
+             ),
+              GestureDetector(
+            //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage(),)),
+            child: Card(
+                color: Color.fromARGB(255, 250, 249, 248),
+                shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.zero,
+              side: BorderSide(
+                color: Color(0xFF68DC09),
+                width: 4.5
+              ),
+            ),
+               shadowColor: Color(0xFF68dc09),
+               elevation: 17.6,
+                child: Image.asset('lib/assets/maluco.png'),
+              ),
+             ),
+              GestureDetector(
+            //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage(),)),
+            child: Card(
+                color: Color.fromARGB(255, 250, 249, 248),
+                shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.zero,
+              side: BorderSide(
+                color: Color(0xFF6F09A2),
+                width: 4.5
+              ),
+            ),
+               shadowColor: Color(0xFF6f09a2),
+               elevation: 17.6,
+                child: Image.asset('lib/assets/lakers.png'),
               ),
              ),
             ],
