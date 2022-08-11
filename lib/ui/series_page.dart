@@ -362,13 +362,13 @@ class _SeriesPageState extends State<SeriesPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color(0xFFf00909),
+                color: Color(0xFF0BEE07),
                 width: 4.5
               ),
             ),
-               shadowColor: Color(0xFFF00909),
+               shadowColor: Color(0xFF0bee07),
                elevation: 17.6,
-                child: Image.asset('lib/assets/red.png'),
+                child: Image.asset('lib/assets/loki.png'),
               ),
              ),
               GestureDetector(
@@ -378,13 +378,13 @@ class _SeriesPageState extends State<SeriesPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color(0xFF08AE08),
+                color: Color(0xFF1174A5),
                 width: 4.5
               ),
             ),
-               shadowColor: Color(0xFF08ae08),
+               shadowColor: Color(0xFF1174a5),
                elevation: 17.6,
-                child: Image.asset('lib/assets/pes.png'),
+                child: Image.asset('lib/assets/mandaloriano.png'),
               ),
              ),
               GestureDetector(

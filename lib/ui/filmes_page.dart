@@ -108,13 +108,13 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 255, 235, 59),
+                  color: Color(0xFF6D0493),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 255, 235, 59),
+              shadowColor: Color(0xFF6d0493),
               elevation: 17.6,
-               child: Image.asset('lib/assets/dbs.png'),
+               child: Image.asset('lib/assets/joker.png'),
               ),
             ),
             GestureDetector(
