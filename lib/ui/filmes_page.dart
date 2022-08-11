@@ -50,7 +50,7 @@ class _FilmrsPageState extends State<FilmrsPage> {
               ),
               shadowColor: Color.fromARGB(255, 11, 67, 220),
               elevation: 17.6,
-               child: Image.asset('lib/assets/homem-aranha.png'),
+               child: Image.asset('lib/assets/dbssuperhero.png'),
               ),
             ),
              GestureDetector(
@@ -130,7 +130,7 @@ class _FilmrsPageState extends State<FilmrsPage> {
               ),
               shadowColor: Color.fromARGB(255, 255, 152, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/sdbh.png'),
+               child: Image.asset('lib/assets/uncharted.png'),
               ),
             ),
             GestureDetector(
@@ -146,7 +146,7 @@ class _FilmrsPageState extends State<FilmrsPage> {
               ),
               shadowColor: Color.fromARGB(255, 255, 152, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/naruto.png'),
+               child: Image.asset('lib/assets/spidermannwh.png'),
               ),
             ),
             GestureDetector(
@@ -162,7 +162,7 @@ class _FilmrsPageState extends State<FilmrsPage> {
               ),
               shadowColor: Color.fromARGB(255, 255, 152, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/narutoshippuden.png'),
+               child: Image.asset('lib/assets/v&f9.png'),
               ),
             ),
             GestureDetector(
@@ -178,7 +178,7 @@ class _FilmrsPageState extends State<FilmrsPage> {
               ),
               shadowColor: Color.fromARGB(255, 206, 37, 99),
               elevation: 17.6,
-               child: Image.asset('lib/assets/boruto.png'),
+               child: Image.asset('lib/assets/jumanji.png'),
               ),
             ),
             GestureDetector(
@@ -196,7 +196,7 @@ class _FilmrsPageState extends State<FilmrsPage> {
               ),
               shadowColor: Color.fromARGB(255, 233, 30, 99),
                elevation: 17.6,
-                child: Image.asset('lib/assets/jojo.png'),
+                child: Image.asset('lib/assets/vingadoresultimato.png'),
               ),
              ),
              GestureDetector(
@@ -212,7 +212,7 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 ),
                shadowColor: Color.fromARGB(255, 0, 0, 0), 
                elevation: 17.6,
-                child: Image.asset('lib/assets/deathnote.png'),
+                child: Image.asset('lib/assets/doutorestranho2.png'),
               ),
              ),
              GestureDetector(
@@ -228,7 +228,7 @@ class _FilmrsPageState extends State<FilmrsPage> {
                ),
                shadowColor: Color.fromARGB(255, 244, 67, 54),
                elevation: 17.6,
-                child: Image.asset('lib/assets/kimetsu.png')
+                child: Image.asset('lib/assets/batman.png')
               ),
              ),
              GestureDetector(
@@ -244,7 +244,7 @@ class _FilmrsPageState extends State<FilmrsPage> {
                ),
                shadowColor: Color.fromARGB(255, 255, 235, 59),
                elevation: 17.6,
-               child: Image.asset('lib/assets/bokunohero.png')
+               child: Image.asset('lib/assets/taspiderman.png')
               ),
              ),
              GestureDetector(
@@ -260,7 +260,7 @@ class _FilmrsPageState extends State<FilmrsPage> {
                ),
                shadowColor: Color.fromARGB(255, 158, 158, 158),
                elevation: 17.6,
-                child: Image.asset('lib/assets/shingeki.png')
+                child: Image.asset('lib/assets/homem-aranha.png')
               ),
              ),
           GestureDetector(
@@ -276,7 +276,7 @@ class _FilmrsPageState extends State<FilmrsPage> {
             ),
                shadowColor: Color.fromARGB(255, 33, 150, 243),
                elevation: 17.6,
-                child: Image.asset('lib/assets/onepiece.png'),
+                child: Image.asset('lib/assets/tartarugasninjafilme.png'),
               ),
              ),
              GestureDetector(
@@ -292,7 +292,7 @@ class _FilmrsPageState extends State<FilmrsPage> {
               ),
               shadowColor: Color.fromARGB(255, 244, 67, 54),
               elevation: 17.6,
-               child: Image.asset('lib/assets/onepunchman.png'),
+               child: Image.asset('lib/assets/sempreaoseulado.png'),
               ),
             ),
             GestureDetector(
@@ -685,3 +685,4 @@ class _FilmrsPageState extends State<FilmrsPage> {
     );
   }
 }
+
