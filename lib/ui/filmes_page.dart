@@ -254,13 +254,13 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
                  borderRadius: BorderRadius.zero,
                  side: BorderSide(
-                   color: Color.fromARGB(255, 158, 158, 158),
+                   color: Color(0xFFE50E0E),
                    width: 4.5
                  ),
                ),
-               shadowColor: Color.fromARGB(255, 158, 158, 158),
+               shadowColor: Color(0xFFe50e0e),
                elevation: 17.6,
-                child: Image.asset('lib/assets/homem-aranha.png')
+                child: Image.asset('lib/assets/aranha.png')
               ),
              ),
           GestureDetector(
@@ -298,15 +298,15 @@ class _FilmrsPageState extends State<FilmrsPage> {
             GestureDetector(
               child: Card(
             /*Qual o tamanho de 10x15 Impressão de fotos no tamanho 10,2 cm de largura por 15,2 cm de comprimento*/
-                child: Image.asset('lib/assets/nanatsu.png',),
+                child: Image.asset('lib/assets/incriveis.png',),
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 255, 152, 0),
+                  color: Color(0xFFFFBA0A),
                   width: 4.5
                 ),
               ),
-                 shadowColor: Color.fromARGB(255, 255, 152, 0),
+                 shadowColor: Color(0xFFffba0a),
                  elevation: 17.6,
               ),
             ),
@@ -317,13 +317,13 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 76, 175, 80),
+                  color: Color(0xFFCA2C05),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 76, 175, 80),
+              shadowColor: Color(0xFFca2c05),
               elevation: 17.6,
-               child: Image.asset('lib/assets/hxh.png'),
+               child: Image.asset('lib/assets/war.png'),
               ),
             ),
             GestureDetector(
@@ -339,7 +339,7 @@ class _FilmrsPageState extends State<FilmrsPage> {
               ),
               shadowColor: Color.fromARGB(255, 255, 235, 59),
               elevation: 17.6,
-               child: Image.asset('lib/assets/pokemon.png'),
+               child: Image.asset('lib/assets/minions2.png'),
               ),
             ),
             GestureDetector(
@@ -349,13 +349,13 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 244, 67, 54),
+                  color: Color(0xFFF79009),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 244, 67, 54),
+              shadowColor: Color(0xFFf79009),
               elevation: 17.6,
-               child: Image.asset('lib/assets/bakugan.png'),
+               child: Image.asset('lib/assets/logan.png'),
               ),
             ),
              GestureDetector(
@@ -365,13 +365,13 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 33, 150, 243),
+                  color: Color(0xFF6ED90A),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 33, 150, 243),
+              shadowColor: Color(0xFF6ed90a),
               elevation: 17.6,
-               child: Image.asset('lib/assets/beyblade.png'),
+               child: Image.asset('lib/assets/sherek.png'),
               ),
             ),
             GestureDetector(
@@ -381,13 +381,13 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 244, 67, 54),
+                  color: Color(0xFFFDE907),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 244, 67, 54),
+              shadowColor: Color(0xFFfde907),
               elevation: 17.6,
-               child: Image.asset('lib/assets/yu-gi-oh.png'),
+               child: Image.asset('lib/assets/up.png'),
               ),
             ),
             GestureDetector(
