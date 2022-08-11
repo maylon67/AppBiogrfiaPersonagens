@@ -44,11 +44,11 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 11, 67, 220),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 11, 67, 220),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/dbssuperhero.png'),
               ),
@@ -60,11 +60,11 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 255, 235, 59),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 255, 235, 59),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/cacafantasmas.png'),
               ),
@@ -76,11 +76,11 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 244, 67, 54),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 244, 67, 54),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/topgun.png'),
               ),
@@ -92,11 +92,11 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 99, 185, 255),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 99, 185, 255),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/jurassicworld.png'),
               ),
@@ -108,11 +108,11 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFF6D0493),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color(0xFF6d0493),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/joker.png'),
               ),
@@ -124,11 +124,11 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 255, 152, 0),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 255, 152, 0),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/uncharted.png'),
               ),
@@ -140,11 +140,11 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 255, 152, 0),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 255, 152, 0),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/spidermannwh.png'),
               ),
@@ -156,11 +156,11 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 255, 152, 0),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 255, 152, 0),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/v&f9.png'),
               ),
@@ -172,11 +172,11 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 206, 37, 99),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 206, 37, 99),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/jumanji.png'),
               ),
@@ -190,11 +190,11 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 233, 30, 99),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 233, 30, 99),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
                 child: Image.asset('lib/assets/vingadoresultimato.png'),
               ),
@@ -222,11 +222,11 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
                  borderRadius: BorderRadius.zero,
                  side: BorderSide(
-                   color: Color.fromARGB(255, 244, 67, 54),
+                   color: Color.fromARGB(255, 0, 0, 0),
                    width: 4.5
                  )
                ),
-               shadowColor: Color.fromARGB(255, 244, 67, 54),
+               shadowColor: Color.fromARGB(255, 10, 10, 10),
                elevation: 17.6,
                 child: Image.asset('lib/assets/batman.png')
               ),
@@ -238,11 +238,11 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
                  borderRadius: BorderRadius.zero,
                  side: BorderSide(
-                   color: Color.fromARGB(255, 255, 235, 59),
+                   color: Color.fromARGB(255, 5, 5, 5),
                    width: 4.5
                  )
                ),
-               shadowColor: Color.fromARGB(255, 255, 235, 59),
+               shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
                child: Image.asset('lib/assets/taspiderman.png')
               ),
@@ -254,11 +254,11 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
                  borderRadius: BorderRadius.zero,
                  side: BorderSide(
-                   color: Color(0xFFE50E0E),
+                   color: Color.fromARGB(255, 0, 0, 0),
                    width: 4.5
                  ),
                ),
-               shadowColor: Color(0xFFe50e0e),
+               shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
                 child: Image.asset('lib/assets/aranha.png')
               ),
@@ -270,11 +270,11 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color.fromARGB(255, 33, 150, 243),
+                color: Color.fromARGB(255, 0, 0, 0),
                 width: 4.5
               ),
             ),
-               shadowColor: Color.fromARGB(255, 33, 150, 243),
+               shadowColor: Color.fromARGB(255, 6, 6, 6),
                elevation: 17.6,
                 child: Image.asset('lib/assets/tartarugasninjafilme.png'),
               ),
@@ -286,11 +286,11 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 244, 67, 54),
+                  color: Color.fromARGB(255, 3, 3, 3),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 244, 67, 54),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/sempreaoseulado.png'),
               ),
@@ -302,11 +302,11 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFFFFBA0A),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 ),
               ),
-                 shadowColor: Color(0xFFffba0a),
+                 shadowColor: Color.fromARGB(255, 0, 0, 0),
                  elevation: 17.6,
               ),
             ),
@@ -317,11 +317,11 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFFCA2C05),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color(0xFFca2c05),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/war.png'),
               ),
@@ -333,11 +333,11 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 255, 235, 59),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 255, 235, 59),
+              shadowColor: Color.fromARGB(255, 3, 3, 3),
               elevation: 17.6,
                child: Image.asset('lib/assets/minions2.png'),
               ),
@@ -349,11 +349,11 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFFF79009),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color(0xFFf79009),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/logan.png'),
               ),
@@ -365,11 +365,11 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFF6ED90A),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color(0xFF6ed90a),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/sherek.png'),
               ),
@@ -381,11 +381,11 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFFFDE907),
+                  color: Color.fromARGB(255, 6, 6, 6),
                   width: 4.5
                 )
               ),
-              shadowColor: Color(0xFFfde907),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/up.png'),
               ),
@@ -397,11 +397,11 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 255, 152, 0),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 255, 152, 0),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/click.png'),
               ),
@@ -429,11 +429,11 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 244, 67, 54),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 244, 67, 54),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/atequeasortenossepare.png'),
               ),
@@ -461,11 +461,11 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 244, 67, 54),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 244, 67, 54),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/carros.png'),
               ),
@@ -477,13 +477,13 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 244, 67, 54),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 244, 67, 54),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/harrypotter.png'),
+               child: Image.asset('lib/assets/pets.png'),
               ),
             ),
              GestureDetector(
@@ -493,11 +493,11 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 255, 152, 0),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 255, 152, 0),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/venom.png'),
               ),
@@ -515,7 +515,7 @@ class _FilmrsPageState extends State<FilmrsPage> {
               ),
               shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/cruella.png'),
+               child: Image.asset('lib/assets/pantera.png'),
               ),
             ),
              GestureDetector(
@@ -541,11 +541,11 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 152, 70, 224),
+                  color: Color.fromARGB(255, 2, 2, 2),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 152, 70, 224),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/viuvanegra.png'),
               ),
@@ -557,11 +557,11 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 152, 70, 224),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 152, 70, 224),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/matrix.png'),
               ),
@@ -573,13 +573,13 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 255, 152, 0),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 255, 152, 0),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/titanic.png'),
+               child: Image.asset('lib/assets/caribe.png'),
               ),
             ),
              GestureDetector(
@@ -621,11 +621,11 @@ class _FilmrsPageState extends State<FilmrsPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 7, 209, 202),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 7, 209, 202),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/karatekid.png'),
               ),
