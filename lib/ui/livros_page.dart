@@ -44,11 +44,11 @@ class _LivrosPageState extends State<LivrosPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 11, 67, 220),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 11, 67, 220),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/livrolupin.png'),
               ),
@@ -60,11 +60,11 @@ class _LivrosPageState extends State<LivrosPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 255, 235, 59),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 255, 235, 59),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/livroreiarthur.png'),
               ),
@@ -76,13 +76,13 @@ class _LivrosPageState extends State<LivrosPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 244, 67, 54),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 244, 67, 54),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/topgun.png'),
+               child: Image.asset('lib/assets/livroromeuejulieta.png'),
               ),
             ),
             GestureDetector(
@@ -92,13 +92,13 @@ class _LivrosPageState extends State<LivrosPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 99, 185, 255),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 99, 185, 255),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/jurassicworld.png'),
+               child: Image.asset('lib/assets/livroharrypotter.png'),
               ),
             ),
             GestureDetector(
@@ -108,13 +108,13 @@ class _LivrosPageState extends State<LivrosPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFF6D0493),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color(0xFF6d0493),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/joker.png'),
+               child: Image.asset('lib/assets/domquixote.png'),
               ),
             ),
             GestureDetector(
@@ -124,11 +124,11 @@ class _LivrosPageState extends State<LivrosPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 255, 152, 0),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 255, 152, 0),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/uncharted.png'),
               ),
@@ -140,11 +140,11 @@ class _LivrosPageState extends State<LivrosPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 255, 152, 0),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 255, 152, 0),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/spidermannwh.png'),
               ),
@@ -156,11 +156,11 @@ class _LivrosPageState extends State<LivrosPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 255, 152, 0),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 255, 152, 0),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/v&f9.png'),
               ),
@@ -172,11 +172,11 @@ class _LivrosPageState extends State<LivrosPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 206, 37, 99),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 206, 37, 99),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/jumanji.png'),
               ),
@@ -190,11 +190,11 @@ class _LivrosPageState extends State<LivrosPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 233, 30, 99),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 233, 30, 99),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
                 child: Image.asset('lib/assets/vingadoresultimato.png'),
               ),
@@ -222,11 +222,11 @@ class _LivrosPageState extends State<LivrosPage> {
                 shape: RoundedRectangleBorder(
                  borderRadius: BorderRadius.zero,
                  side: BorderSide(
-                   color: Color.fromARGB(255, 244, 67, 54),
+                   color: Color.fromARGB(255, 0, 0, 0),
                    width: 4.5
                  )
                ),
-               shadowColor: Color.fromARGB(255, 244, 67, 54),
+               shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
                 child: Image.asset('lib/assets/batman.png')
               ),
@@ -238,11 +238,11 @@ class _LivrosPageState extends State<LivrosPage> {
                 shape: RoundedRectangleBorder(
                  borderRadius: BorderRadius.zero,
                  side: BorderSide(
-                   color: Color.fromARGB(255, 255, 235, 59),
+                   color: Color.fromARGB(255, 0, 0, 0),
                    width: 4.5
                  )
                ),
-               shadowColor: Color.fromARGB(255, 255, 235, 59),
+               shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
                child: Image.asset('lib/assets/taspiderman.png')
               ),
@@ -254,11 +254,11 @@ class _LivrosPageState extends State<LivrosPage> {
                 shape: RoundedRectangleBorder(
                  borderRadius: BorderRadius.zero,
                  side: BorderSide(
-                   color: Color.fromARGB(255, 158, 158, 158),
+                   color: Color.fromARGB(255, 0, 0, 0),
                    width: 4.5
                  ),
                ),
-               shadowColor: Color.fromARGB(255, 158, 158, 158),
+               shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
                 child: Image.asset('lib/assets/homem-aranha.png')
               ),
@@ -270,11 +270,11 @@ class _LivrosPageState extends State<LivrosPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color.fromARGB(255, 33, 150, 243),
+                color: Color.fromARGB(255, 0, 0, 0),
                 width: 4.5
               ),
             ),
-               shadowColor: Color.fromARGB(255, 33, 150, 243),
+               shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
                 child: Image.asset('lib/assets/tartarugasninjafilme.png'),
               ),
@@ -286,11 +286,11 @@ class _LivrosPageState extends State<LivrosPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 244, 67, 54),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 244, 67, 54),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/sempreaoseulado.png'),
               ),
@@ -302,11 +302,11 @@ class _LivrosPageState extends State<LivrosPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 255, 152, 0),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 ),
               ),
-                 shadowColor: Color.fromARGB(255, 255, 152, 0),
+                 shadowColor: Color.fromARGB(255, 0, 0, 0),
                  elevation: 17.6,
               ),
             ),
@@ -317,11 +317,11 @@ class _LivrosPageState extends State<LivrosPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 76, 175, 80),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 76, 175, 80),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/hxh.png'),
               ),
@@ -333,11 +333,11 @@ class _LivrosPageState extends State<LivrosPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 255, 235, 59),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 255, 235, 59),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/pokemon.png'),
               ),
@@ -349,11 +349,11 @@ class _LivrosPageState extends State<LivrosPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 244, 67, 54),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 244, 67, 54),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/bakugan.png'),
               ),
@@ -365,11 +365,11 @@ class _LivrosPageState extends State<LivrosPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 33, 150, 243),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 33, 150, 243),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/beyblade.png'),
               ),
@@ -381,11 +381,11 @@ class _LivrosPageState extends State<LivrosPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 244, 67, 54),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 244, 67, 54),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/yu-gi-oh.png'),
               ),
@@ -397,11 +397,11 @@ class _LivrosPageState extends State<LivrosPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 255, 152, 0),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 255, 152, 0),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/superonze.png'),
               ),
@@ -429,11 +429,11 @@ class _LivrosPageState extends State<LivrosPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 244, 67, 54),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 244, 67, 54),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/bleach.png'),
               ),
@@ -461,11 +461,11 @@ class _LivrosPageState extends State<LivrosPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 244, 67, 54),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 244, 67, 54),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/fullmetal.png'),
               ),
@@ -477,11 +477,11 @@ class _LivrosPageState extends State<LivrosPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 244, 67, 54),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 244, 67, 54),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/fairytail.png'),
               ),
@@ -493,11 +493,11 @@ class _LivrosPageState extends State<LivrosPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 255, 152, 0),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 255, 152, 0),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/drstone.png'),
               ),
@@ -541,11 +541,11 @@ class _LivrosPageState extends State<LivrosPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 152, 70, 224),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 152, 70, 224),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/edenszero.png'),
               ),
@@ -557,11 +557,11 @@ class _LivrosPageState extends State<LivrosPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 152, 70, 224),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 152, 70, 224),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/rezero.png'),
               ),
@@ -573,11 +573,11 @@ class _LivrosPageState extends State<LivrosPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 255, 152, 0),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 255, 152, 0),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/shamanking.png'),
               ),
@@ -621,11 +621,11 @@ class _LivrosPageState extends State<LivrosPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 7, 209, 202),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 7, 209, 202),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
                child: Image.asset('lib/assets/sao.png'),
               ),
