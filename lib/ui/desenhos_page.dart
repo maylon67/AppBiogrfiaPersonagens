@@ -83,7 +83,7 @@ class _DesenhosPageState extends State<DesenhosPage> {
                 ),
                shadowColor: Color.fromARGB(255, 0, 0, 0), 
                elevation: 17.6,
-                child: Image.asset('lib/assets/subwaysurfers.png'),
+                child: Image.asset('lib/assets/backy.png'),
               ),
              ),
              GestureDetector(
@@ -99,7 +99,7 @@ class _DesenhosPageState extends State<DesenhosPage> {
                ),
                shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
-                child: Image.asset('lib/assets/mk11.png')
+                child: Image.asset('lib/assets/popai.png')
               ),
              ),
              GestureDetector(
@@ -115,7 +115,7 @@ class _DesenhosPageState extends State<DesenhosPage> {
                ),
                shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
-               child: Image.asset('lib/assets/fifa.png')
+               child: Image.asset('lib/assets/bananas.png')
               ),
              ),
              GestureDetector(
@@ -131,7 +131,7 @@ class _DesenhosPageState extends State<DesenhosPage> {
                ),
                shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
-                child: Image.asset('lib/assets/nfs.png')
+                child: Image.asset('lib/assets/carneiro.png')
               ),
              ),
           GestureDetector(
@@ -147,17 +147,17 @@ class _DesenhosPageState extends State<DesenhosPage> {
             ),
                shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
-                child: Image.asset('lib/assets/gtafive.png'),
+                child: Image.asset('lib/assets/luny.png'),
               ),
              ),
             Card(
 /*Qual o tamanho de 10x15 Impressão de fotos no tamanho 10,2 cm de largura por 15,2 cm de comprimento*/
-              child: Image.asset('lib/assets/logo-fortnite-512.png',),
+              child: Image.asset('lib/assets/patto.png',),
               shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
                 color: Color.fromARGB(255, 0, 0, 0),
-                width: 4.5
+                width: 4.5,
               ),
             ),
                shadowColor: Color.fromARGB(255, 0, 0, 0),
@@ -176,7 +176,7 @@ class _DesenhosPageState extends State<DesenhosPage> {
             ),
                shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
-                child: Image.asset('lib/assets/sonic.png'),
+                child: Image.asset('lib/assets/choque.png'),
               ),
              ),
               GestureDetector(
@@ -192,7 +192,7 @@ class _DesenhosPageState extends State<DesenhosPage> {
             ),
                shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
-                child: Image.asset('lib/assets/street.png'),
+                child: Image.asset('lib/assets/monica.png'),
               ),
              ),
               GestureDetector(
