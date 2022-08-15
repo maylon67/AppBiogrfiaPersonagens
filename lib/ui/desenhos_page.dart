@@ -464,7 +464,7 @@ class _DesenhosPageState extends State<DesenhosPage> {
             ),
                shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
-                child: Image.asset('lib/assets/six.png'),
+                child: Image.asset('lib/assets/montrosss.png'),
               ),
              ),
               GestureDetector(
@@ -480,7 +480,7 @@ class _DesenhosPageState extends State<DesenhosPage> {
             ),
                shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
-                child: Image.asset('lib/assets/apex.png'),
+                child: Image.asset('lib/assets/krats.png'),
               ),
              ),
               GestureDetector(
@@ -496,7 +496,7 @@ class _DesenhosPageState extends State<DesenhosPage> {
             ),
                shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
-                child: Image.asset('lib/assets/ufc.png'),
+                child: Image.asset('lib/assets/amigo.png'),
               ),
              ),
               GestureDetector(
@@ -512,7 +512,7 @@ class _DesenhosPageState extends State<DesenhosPage> {
             ),
                shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
-                child: Image.asset('lib/assets/pou.png'),
+                child: Image.asset('lib/assets/doki.png'),
               ),
              ),
               GestureDetector(
@@ -528,7 +528,7 @@ class _DesenhosPageState extends State<DesenhosPage> {
             ),
                shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
-                child: Image.asset('lib/assets/amongus.png'),
+                child: Image.asset('lib/assets/animais.png'),
               ),
              ),
               GestureDetector(
@@ -544,7 +544,7 @@ class _DesenhosPageState extends State<DesenhosPage> {
             ),
                shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
-                child: Image.asset('lib/assets/inazuma.png'),
+                child: Image.asset('lib/assets/jake.png'),
               ),
              ),
               GestureDetector(
@@ -560,7 +560,7 @@ class _DesenhosPageState extends State<DesenhosPage> {
             ),
                shadowColor: Color(0xFF090909),
                elevation: 17.6,
-                child: Image.asset('lib/assets/tsubasa.png'),
+                child: Image.asset('lib/assets/mickey.png'),
               ),
              ),
               GestureDetector(
@@ -576,7 +576,7 @@ class _DesenhosPageState extends State<DesenhosPage> {
             ),
                shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
-                child: Image.asset('lib/assets/zombie.png'),
+                child: Image.asset('lib/assets/ursinhos.png'),
               ),
              ),
               GestureDetector(
@@ -592,7 +592,7 @@ class _DesenhosPageState extends State<DesenhosPage> {
             ),
                shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
-                child: Image.asset('lib/assets/pokemonn.png'),
+                child: Image.asset('lib/assets/picapau.png'),
               ),
              ),
               GestureDetector(
@@ -608,7 +608,7 @@ class _DesenhosPageState extends State<DesenhosPage> {
             ),
                shadowColor: Color(0xFF000000),
                elevation: 17.6,
-                child: Image.asset('lib/assets/days.png'),
+                child: Image.asset('lib/assets/tiopatinhas.png'),
               ),
              ),
               GestureDetector(
@@ -624,7 +624,7 @@ class _DesenhosPageState extends State<DesenhosPage> {
             ),
                shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
-                child: Image.asset('lib/assets/rezend.png'),
+                child: Image.asset('lib/assets/panteraa.png'),
               ),
              ),
               GestureDetector(
@@ -640,7 +640,7 @@ class _DesenhosPageState extends State<DesenhosPage> {
             ),
                shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
-                child: Image.asset('lib/assets/overcoked.png'),
+                child: Image.asset('lib/assets/anoes.png'),
               ),
              ),
               GestureDetector(
