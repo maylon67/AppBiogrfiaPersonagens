@@ -387,7 +387,7 @@ class _LivrosPageState extends State<LivrosPage> {
               ),
               shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/yu-gi-oh.png'),
+               child: Image.asset('lib/assets/livroagarotadoespelhodeprata.png'),
               ),
             ),
             GestureDetector(
@@ -403,7 +403,7 @@ class _LivrosPageState extends State<LivrosPage> {
               ),
               shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/superonze.png'),
+               child: Image.asset('lib/assets/livrosombraeossos.png'),
               ),
             ),
              GestureDetector(
