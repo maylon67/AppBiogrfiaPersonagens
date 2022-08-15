@@ -196,7 +196,7 @@ class _LivrosPageState extends State<LivrosPage> {
               ),
               shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
-                child: Image.asset('lib/assets/vingadoresultimato.png'),
+                child: Image.asset('lib/assets/livroamulhernajanela.png'),
               ),
              ),
              GestureDetector(
@@ -212,7 +212,7 @@ class _LivrosPageState extends State<LivrosPage> {
                 ),
                shadowColor: Color.fromARGB(255, 0, 0, 0), 
                elevation: 17.6,
-                child: Image.asset('lib/assets/doutorestranho2.png'),
+                child: Image.asset('lib/assets/livroumadobranotempo.png'),
               ),
              ),
              GestureDetector(
@@ -228,7 +228,7 @@ class _LivrosPageState extends State<LivrosPage> {
                ),
                shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
-                child: Image.asset('lib/assets/batman.png')
+                child: Image.asset('lib/assets/livroameninamaisfriadecoldtown.png')
               ),
              ),
              GestureDetector(
@@ -244,7 +244,7 @@ class _LivrosPageState extends State<LivrosPage> {
                ),
                shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
-               child: Image.asset('lib/assets/taspiderman.png')
+               child: Image.asset('lib/assets/livroarebeldededoismundos.png')
               ),
              ),
              GestureDetector(
@@ -260,7 +260,7 @@ class _LivrosPageState extends State<LivrosPage> {
                ),
                shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
-                child: Image.asset('lib/assets/homem-aranha.png')
+                child: Image.asset('lib/assets/livroconfusoesdeumgaroto.png')
               ),
              ),
           GestureDetector(
@@ -276,7 +276,7 @@ class _LivrosPageState extends State<LivrosPage> {
             ),
                shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
-                child: Image.asset('lib/assets/tartarugasninjafilme.png'),
+                child: Image.asset('lib/assets/livroafilhadofogo.png'),
               ),
              ),
              GestureDetector(
@@ -292,13 +292,13 @@ class _LivrosPageState extends State<LivrosPage> {
               ),
               shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/sempreaoseulado.png'),
+               child: Image.asset('lib/assets/livrocoracaodegelo.png'),
               ),
             ),
             GestureDetector(
               child: Card(
             /*Qual o tamanho de 10x15 Impressão de fotos no tamanho 10,2 cm de largura por 15,2 cm de comprimento*/
-                child: Image.asset('lib/assets/nanatsu.png',),
+                child: Image.asset('lib/assets/livroascronicasdenarnia.png',),
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
@@ -323,7 +323,7 @@ class _LivrosPageState extends State<LivrosPage> {
               ),
               shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/hxh.png'),
+               child: Image.asset('lib/assets/livroacacadora.png'),
               ),
             ),
             GestureDetector(
@@ -339,7 +339,7 @@ class _LivrosPageState extends State<LivrosPage> {
               ),
               shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/pokemon.png'),
+               child: Image.asset('lib/assets/livrosobaluzdalua.png'),
               ),
             ),
             GestureDetector(
@@ -355,7 +355,7 @@ class _LivrosPageState extends State<LivrosPage> {
               ),
               shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/bakugan.png'),
+               child: Image.asset('lib/assets/livromundosparalelos.png'),
               ),
             ),
              GestureDetector(
@@ -371,7 +371,7 @@ class _LivrosPageState extends State<LivrosPage> {
               ),
               shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/beyblade.png'),
+               child: Image.asset('lib/assets/livrodeixemeentrar.png'),
               ),
             ),
             GestureDetector(
