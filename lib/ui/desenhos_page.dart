@@ -368,7 +368,7 @@ class _DesenhosPageState extends State<DesenhosPage> {
             ),
                shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
-                child: Image.asset('lib/assets/red.png'),
+                child: Image.asset('lib/assets/xmenevolution.png'),
               ),
              ),
               GestureDetector(
@@ -384,7 +384,7 @@ class _DesenhosPageState extends State<DesenhosPage> {
             ),
                shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
-                child: Image.asset('lib/assets/pes.png'),
+                child: Image.asset('lib/assets/papaleguasecoyote.png'),
               ),
              ),
               GestureDetector(
@@ -400,7 +400,7 @@ class _DesenhosPageState extends State<DesenhosPage> {
             ),
                shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
-                child: Image.asset('lib/assets/ff.png'),
+                child: Image.asset('lib/assets/osflintstones.png'),
               ),
              ),
               GestureDetector(
@@ -416,7 +416,7 @@ class _DesenhosPageState extends State<DesenhosPage> {
             ),
                shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
-                child: Image.asset('lib/assets/vava.png'),
+                child: Image.asset('lib/assets/osjetsons.png'),
               ),
              ),
               GestureDetector(
@@ -432,7 +432,7 @@ class _DesenhosPageState extends State<DesenhosPage> {
             ),
                shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
-                child: Image.asset('lib/assets/royale.png'),
+                child: Image.asset('lib/assets/asaventurasdejackchan.png'),
               ),
              ),
              GestureDetector(
@@ -448,7 +448,7 @@ class _DesenhosPageState extends State<DesenhosPage> {
             ),
                shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
-                child: Image.asset('lib/assets/clans.png'),
+                child: Image.asset('lib/assets/kickbuttowski.png'),
               ),
              ), 
               GestureDetector(

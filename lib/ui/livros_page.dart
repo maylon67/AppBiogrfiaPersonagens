@@ -130,7 +130,7 @@ class _LivrosPageState extends State<LivrosPage> {
               ),
               shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/uncharted.png'),
+               child: Image.asset('lib/assets/livrofodase.png'),
               ),
             ),
             GestureDetector(
@@ -146,7 +146,7 @@ class _LivrosPageState extends State<LivrosPage> {
               ),
               shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/spidermannwh.png'),
+               child: Image.asset('lib/assets/livroacacadoradedragoes.png'),
               ),
             ),
             GestureDetector(
@@ -162,7 +162,7 @@ class _LivrosPageState extends State<LivrosPage> {
               ),
               shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/v&f9.png'),
+               child: Image.asset('lib/assets/livroveraopassado.png'),
               ),
             ),
             GestureDetector(
@@ -178,7 +178,7 @@ class _LivrosPageState extends State<LivrosPage> {
               ),
               shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/jumanji.png'),
+               child: Image.asset('lib/assets/livrostalker.png'),
               ),
             ),
             GestureDetector(
