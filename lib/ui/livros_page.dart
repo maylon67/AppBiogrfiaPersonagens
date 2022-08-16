@@ -419,7 +419,7 @@ class _LivrosPageState extends State<LivrosPage> {
               ),
               shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/capitaotsubasa.png'),
+               child: Image.asset('lib/assets/imaginario.png'),
               ),
             ),
             GestureDetector(
@@ -435,7 +435,7 @@ class _LivrosPageState extends State<LivrosPage> {
               ),
               shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/bleach.png'),
+               child: Image.asset('lib/assets/sombras.png'),
               ),
             ),
              GestureDetector(
@@ -451,7 +451,7 @@ class _LivrosPageState extends State<LivrosPage> {
               ),
               shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/akamegakill.png'),
+               child: Image.asset('lib/assets/mal.png'),
               ),
             ),
              GestureDetector(
@@ -467,7 +467,7 @@ class _LivrosPageState extends State<LivrosPage> {
               ),
               shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/fullmetal.png'),
+               child: Image.asset('lib/assets/mortos.png'),
               ),
             ),
              GestureDetector(
@@ -483,7 +483,7 @@ class _LivrosPageState extends State<LivrosPage> {
               ),
               shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/fairytail.png'),
+               child: Image.asset('lib/assets/colheita.png'),
               ),
             ),
              GestureDetector(
@@ -499,7 +499,7 @@ class _LivrosPageState extends State<LivrosPage> {
               ),
               shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/drstone.png'),
+               child: Image.asset('lib/assets/relogio.png'),
               ),
             ),
              GestureDetector(
@@ -515,7 +515,7 @@ class _LivrosPageState extends State<LivrosPage> {
               ),
               shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/spyxfamily.png'),
+               child: Image.asset('lib/assets/ciencia.png'),
               ),
             ),
              GestureDetector(
@@ -531,7 +531,7 @@ class _LivrosPageState extends State<LivrosPage> {
               ),
               shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/beastars.png'),
+               child: Image.asset('lib/assets/ladrao.png'),
               ),
             ),
              GestureDetector(
@@ -547,7 +547,7 @@ class _LivrosPageState extends State<LivrosPage> {
               ),
               shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/edenszero.png'),
+               child: Image.asset('lib/assets/barqueiro.png'),
               ),
             ),
              GestureDetector(
