@@ -1,5 +1,6 @@
 import 'package:app_personagens_biografia/app_config.dart';
 import 'package:app_personagens_biografia/ui/alteracoes_page.dart';
+import 'package:app_personagens_biografia/ui/streetfighter_page.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:ionicons/ionicons.dart';
@@ -44,11 +45,11 @@ class _JogosPageState extends State<JogosPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 0, 0, 0),
+                  color: Color(0xFF07D1CA),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 0, 0, 0),
+              shadowColor: Color(0xFF07D1CA),
               elevation: 17.6,
                child: Image.asset('lib/assets/bully.png'),
               ),
@@ -62,11 +63,11 @@ class _JogosPageState extends State<JogosPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color.fromARGB(255, 0, 0, 0),
+                  color: Color(0xFFC7FF0E),
                   width: 4.5
                 )
               ),
-              shadowColor: Color.fromARGB(255, 0, 0, 0),
+              shadowColor: Color(0xFFC7FF0E),
                elevation: 17.6,
                 child: Image.asset('lib/assets/dragonballfighterz.png'),
               ),
@@ -78,11 +79,11 @@ class _JogosPageState extends State<JogosPage> {
                 shape: RoundedRectangleBorder(
                  borderRadius: BorderRadius.zero,
                  side: BorderSide(
-                   color: Color.fromARGB(255, 0, 0, 0),
+                   color: Color(0xFFEC0909),
                    width: 4.5
                  ),
                 ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0), 
+               shadowColor: Color(0xFFEC0909), 
                elevation: 17.6,
                 child: Image.asset('lib/assets/subwaysurfers.png'),
               ),
@@ -94,11 +95,11 @@ class _JogosPageState extends State<JogosPage> {
                 shape: RoundedRectangleBorder(
                  borderRadius: BorderRadius.zero,
                  side: BorderSide(
-                   color: Color.fromARGB(255, 0, 0, 0),
+                   color: Color(0xFF0E19E3),
                    width: 4.5
                  )
                ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
+               shadowColor: Color(0xFF0E19E3),
                elevation: 17.6,
                 child: Image.asset('lib/assets/mk11.png')
               ),
@@ -110,11 +111,11 @@ class _JogosPageState extends State<JogosPage> {
                 shape: RoundedRectangleBorder(
                  borderRadius: BorderRadius.zero,
                  side: BorderSide(
-                   color: Color.fromARGB(255, 0, 0, 0),
+                   color: Color(0xFFe39c0e),
                    width: 4.5
                  )
                ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
+               shadowColor: Color(0xFFe39c0e),
                elevation: 17.6,
                child: Image.asset('lib/assets/fifa.png')
               ),
@@ -126,11 +127,11 @@ class _JogosPageState extends State<JogosPage> {
                 shape: RoundedRectangleBorder(
                  borderRadius: BorderRadius.zero,
                  side: BorderSide(
-                   color: Color.fromARGB(255, 0, 0, 0),
+                   color: Color(0xFF15af0d),
                    width: 4.5
                  ),
                ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
+               shadowColor: Color(0xFF15af0d),
                elevation: 17.6,
                 child: Image.asset('lib/assets/nfs.png')
               ),
@@ -142,11 +143,11 @@ class _JogosPageState extends State<JogosPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color.fromARGB(255, 0, 0, 0),
+                color: Color(0xFF05aa94),
                 width: 4.5
               ),
             ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
+               shadowColor: Color(0xFF05aa94),
                elevation: 17.6,
                 child: Image.asset('lib/assets/gtafive.png'),
               ),
@@ -157,11 +158,11 @@ class _JogosPageState extends State<JogosPage> {
               shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color.fromARGB(255, 0, 0, 0),
+                color: Color(0xFF0685DA),
                 width: 4.5
               ),
             ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
+               shadowColor: Color(0xFF0685da),
                elevation: 17.6,
             ),
              GestureDetector(
@@ -171,27 +172,27 @@ class _JogosPageState extends State<JogosPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color.fromARGB(255, 0, 0, 0),
+                color: Color(0xFF05aa94),
                 width: 4.5
               ),
             ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
+               shadowColor: Color(0xFF05aa94),
                elevation: 17.6,
                 child: Image.asset('lib/assets/sonic.png'),
               ),
              ),
               GestureDetector(
-            //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage(),)),
+            onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => StreetFigtherPage(),)),
             child: Card(
                 color: Color.fromARGB(255, 250, 249, 248),
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color.fromARGB(255, 0, 0, 0),
+                color: Color(0xFFf17f0d),
                 width: 4.5
               ),
             ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
+               shadowColor: Color(0xFFF17F0D),
                elevation: 17.6,
                 child: Image.asset('lib/assets/street.png'),
               ),
@@ -203,11 +204,11 @@ class _JogosPageState extends State<JogosPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color.fromARGB(255, 0, 0, 0),
+                color: Color(0xFF47AA05),
                 width: 4.5
               ),
             ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
+               shadowColor: Color(0xFF47aa05),
                elevation: 17.6,
                 child: Image.asset('lib/assets/tom.png'),
               ),
@@ -219,11 +220,11 @@ class _JogosPageState extends State<JogosPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color.fromARGB(255, 0, 0, 0),
+                color: Color(0xFFf8a10b),
                 width: 4.5
               ),
             ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
+               shadowColor: Color(0xFFF8A10B),
                elevation: 17.6,
                 child: Image.asset('lib/assets/pubg.png'),
               ),
@@ -235,11 +236,11 @@ class _JogosPageState extends State<JogosPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color.fromARGB(255, 0, 0, 0),
+                color: Color(0xFF0B8AE4),
                 width: 4.5
               ),
             ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
+               shadowColor: Color(0xFF0b8ae4),
                elevation: 17.6,
                 child: Image.asset('lib/assets/fallguys.png'),
               ),
@@ -251,11 +252,11 @@ class _JogosPageState extends State<JogosPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color.fromARGB(255, 0, 0, 0),
+                color: Color(0xFFFC7601),
                 width: 4.5
               ),
             ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
+               shadowColor: Color(0xFFfc7601),
                elevation: 17.6,
                 child: Image.asset('lib/assets/guys.png'),
               ),
@@ -267,11 +268,11 @@ class _JogosPageState extends State<JogosPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color.fromARGB(255, 0, 0, 0),
+                color: Color(0xFF8308b0),
                 width: 4.5
               ),
             ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
+               shadowColor: Color(0xFF8308B0),
                elevation: 17.6,
                 child: Image.asset('lib/assets/cyber.png'),
               ),
@@ -283,11 +284,11 @@ class _JogosPageState extends State<JogosPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color.fromARGB(255, 0, 0, 0),
+                color: Color(0xFFD30909),
                 width: 4.5
               ),
             ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
+               shadowColor: Color(0xFFd30909),
                elevation: 17.6,
                 child: Image.asset('lib/assets/galaxia.png'),
               ),
@@ -315,11 +316,11 @@ class _JogosPageState extends State<JogosPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color.fromARGB(255, 0, 0, 0),
+                color: Color(0xFF0FE728),
                 width: 4.5
               ),
             ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
+               shadowColor: Color(0xFF0fe728),
                elevation: 17.6,
                 child: Image.asset('lib/assets/rocket.png'),
               ),
@@ -331,11 +332,11 @@ class _JogosPageState extends State<JogosPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color.fromARGB(255, 0, 0, 0),
+                color: Color(0xFF9C0B0B),
                 width: 4.5
               ),
             ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
+               shadowColor: Color(0xFF9c0b0b),
                elevation: 17.6,
                 child: Image.asset('lib/assets/mario.png'),
               ),
@@ -347,11 +348,11 @@ class _JogosPageState extends State<JogosPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color.fromARGB(255, 0, 0, 0),
+                color: Color(0xFF073ABB),
                 width: 4.5
               ),
             ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
+               shadowColor: Color(0xFF073abb),
                elevation: 17.6,
                 child: Image.asset('lib/assets/god.png'),
               ),
@@ -363,11 +364,11 @@ class _JogosPageState extends State<JogosPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color.fromARGB(255, 0, 0, 0),
+                color: Color(0xFFf00909),
                 width: 4.5
               ),
             ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
+               shadowColor: Color(0xFFF00909),
                elevation: 17.6,
                 child: Image.asset('lib/assets/red.png'),
               ),
@@ -379,11 +380,11 @@ class _JogosPageState extends State<JogosPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color.fromARGB(255, 0, 0, 0),
+                color: Color(0xFF08AE08),
                 width: 4.5
               ),
             ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
+               shadowColor: Color(0xFF08ae08),
                elevation: 17.6,
                 child: Image.asset('lib/assets/pes.png'),
               ),
@@ -395,11 +396,11 @@ class _JogosPageState extends State<JogosPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color.fromARGB(255, 0, 0, 0),
+                color: Color(0xFFFBF70D),
                 width: 4.5
               ),
             ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
+               shadowColor: Color(0xFFfbf70d),
                elevation: 17.6,
                 child: Image.asset('lib/assets/ff.png'),
               ),
@@ -411,11 +412,11 @@ class _JogosPageState extends State<JogosPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color.fromARGB(255, 0, 0, 0),
+                color: Color(0xFFE61010),
                 width: 4.5
               ),
             ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
+               shadowColor: Color(0xFFe61010),
                elevation: 17.6,
                 child: Image.asset('lib/assets/vava.png'),
               ),
@@ -427,11 +428,11 @@ class _JogosPageState extends State<JogosPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color.fromARGB(255, 0, 0, 0),
+                color: Color(0xFFEA6A09),
                 width: 4.5
               ),
             ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
+               shadowColor: Color(0xFFea6a09),
                elevation: 17.6,
                 child: Image.asset('lib/assets/royale.png'),
               ),
@@ -443,11 +444,11 @@ class _JogosPageState extends State<JogosPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color.fromARGB(255, 0, 0, 0),
+                color: Color(0xFF0EB4F0),
                 width: 4.5
               ),
             ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
+               shadowColor: Color(0xFF0eb4f0),
                elevation: 17.6,
                 child: Image.asset('lib/assets/clans.png'),
               ),
@@ -459,11 +460,11 @@ class _JogosPageState extends State<JogosPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color.fromARGB(255, 0, 0, 0),
+                color: Color(0xFFA71010),
                 width: 4.5
               ),
             ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
+               shadowColor: Color(0xFFa71010),
                elevation: 17.6,
                 child: Image.asset('lib/assets/six.png'),
               ),
@@ -475,11 +476,11 @@ class _JogosPageState extends State<JogosPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color.fromARGB(255, 0, 0, 0),
+                color: Color(0xFFD1F40F),
                 width: 4.5
               ),
             ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
+               shadowColor: Color(0xFFd1f40f),
                elevation: 17.6,
                 child: Image.asset('lib/assets/apex.png'),
               ),
@@ -491,11 +492,11 @@ class _JogosPageState extends State<JogosPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color.fromARGB(255, 0, 0, 0),
+                color: Color(0xFF03EB64),
                 width: 4.5
               ),
             ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
+               shadowColor: Color(0xFF03eb64),
                elevation: 17.6,
                 child: Image.asset('lib/assets/ufc.png'),
               ),
@@ -507,11 +508,11 @@ class _JogosPageState extends State<JogosPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color.fromARGB(255, 0, 0, 0),
+                color: Color(0xFFC0770B),
                 width: 4.5
               ),
             ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
+               shadowColor: Color(0xFFc0770b),
                elevation: 17.6,
                 child: Image.asset('lib/assets/pou.png'),
               ),
@@ -523,11 +524,11 @@ class _JogosPageState extends State<JogosPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color.fromARGB(255, 0, 0, 0),
+                color: Color(0xFFbe1414),
                 width: 4.5
               ),
             ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
+               shadowColor: Color(0xFFBE1414),
                elevation: 17.6,
                 child: Image.asset('lib/assets/amongus.png'),
               ),
@@ -539,11 +540,11 @@ class _JogosPageState extends State<JogosPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color.fromARGB(255, 0, 0, 0),
+                color: Color(0xFF0A83F4),
                 width: 4.5
               ),
             ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
+               shadowColor: Color(0xFF0a83f4),
                elevation: 17.6,
                 child: Image.asset('lib/assets/inazuma.png'),
               ),
@@ -571,11 +572,11 @@ class _JogosPageState extends State<JogosPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color.fromARGB(255, 0, 0, 0),
+                color: Color(0xFF81D907),
                 width: 4.5
               ),
             ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
+               shadowColor: Color(0xFF81d907),
                elevation: 17.6,
                 child: Image.asset('lib/assets/zombie.png'),
               ),
@@ -587,11 +588,11 @@ class _JogosPageState extends State<JogosPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color.fromARGB(255, 0, 0, 0),
+                color: Color(0xFF2141F8),
                 width: 4.5
               ),
             ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
+               shadowColor: Color(0xFF2141f8),
                elevation: 17.6,
                 child: Image.asset('lib/assets/pokemonn.png'),
               ),
@@ -635,11 +636,11 @@ class _JogosPageState extends State<JogosPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color.fromARGB(255, 0, 0, 0),
+                color: Color(0xFF0D7FF8),
                 width: 4.5
               ),
             ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
+               shadowColor: Color(0xFF0d7ff8),
                elevation: 17.6,
                 child: Image.asset('lib/assets/overcoked.png'),
               ),
@@ -651,11 +652,11 @@ class _JogosPageState extends State<JogosPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color.fromARGB(255, 0, 0, 0),
+                color: Color(0xFFF11313),
                 width: 4.5
               ),
             ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
+               shadowColor: Color(0xFFf11313),
                elevation: 17.6,
                 child: Image.asset('lib/assets/stray.png'),
               ),
@@ -667,11 +668,11 @@ class _JogosPageState extends State<JogosPage> {
                 shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
               side: BorderSide(
-                color: Color.fromARGB(255, 0, 0, 0),
+                color: Color(0xFF68c406),
                 width: 4.5
               ),
             ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
+               shadowColor: Color(0xFF68C406),
                elevation: 17.6,
                 child: Image.asset('lib/assets/b10.png'),
               ),
