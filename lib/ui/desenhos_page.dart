@@ -667,7 +667,7 @@ class _DesenhosPageState extends State<DesenhosPage> {
               borderRadius: BorderRadius.zero,
               side: BorderSide(
                 color: Color.fromARGB(255, 0, 0, 0),
-                width: 4.5
+                width: 4.5,
               ),
             ),
                shadowColor: Color.fromARGB(255, 0, 0, 0),

@@ -24,7 +24,8 @@ class _SeriesPageState extends State<SeriesPage> {
         backgroundColor: Color.fromARGB(255, 19, 18, 18),
         centerTitle: true,
       ),
-      body: SizedBox(
+      body:
+       SizedBox(
         height:height(context)*0.98,
         width: width(context),
         child: Padding(

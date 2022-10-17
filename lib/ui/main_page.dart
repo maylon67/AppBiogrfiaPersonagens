@@ -1,7 +1,9 @@
 import 'package:app_personagens_biografia/ui/alteracoes_page.dart';
 import 'package:app_personagens_biografia/ui/animes_page.dart';
+import 'package:app_personagens_biografia/ui/culturas_page.dart';
 import 'package:app_personagens_biografia/ui/desenhos_page.dart';
 import 'package:app_personagens_biografia/ui/filmes_page.dart';
+import 'package:app_personagens_biografia/ui/futebol_page.dart';
 import 'package:app_personagens_biografia/ui/jogos_page.dart';
 import 'package:app_personagens_biografia/ui/livros_page.dart';
 import 'package:app_personagens_biografia/ui/series_page.dart';
@@ -25,9 +27,9 @@ class _MainPageState extends State<MainPage> {
       backgroundColor: colorScaffoldPersonagensApp,
       appBar: AppBar(
         title: Text(
-          'Biografia de Personagens',
+          'Escolha o tipo de Biografia',
           style: GoogleFonts.permanentMarker(
-              color: Color(0xFFe39c0e), fontSize: 26),
+              color: Color(0xFFe39c0e), fontSize: 23),
         ),
         backgroundColor: Color.fromARGB(255, 19, 18, 18),
         centerTitle: true,
@@ -246,6 +248,57 @@ class _MainPageState extends State<MainPage> {
                ),
               ),
              ),
+             GestureDetector(
+               onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => FutebolPage(),)),
+              child: Card(
+                color: Color.fromARGB(255, 250, 249, 248),
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(23.0),
+                side: BorderSide(
+                  color: Color(0xFF0DC007),
+                  width: 4.5
+                ),
+              ),
+              shadowColor: Color(0xFF0dc007),
+               elevation: 17.6,
+                child: Column(
+                children: [
+                  Padding(padding: EdgeInsets.symmetric(vertical: 23)),
+                  Icon(Ionicons.football_outline,size: 90,color: Color(0xFF0dc007),),
+                  Text('Futebol',style: GoogleFonts.chakraPetch(
+                    color: Color.fromARGB(255, 7, 7, 7),
+                    fontSize: 26
+                  ),),
+                ],
+               ),
+              ),
+             ),
+             GestureDetector(
+               onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => CulturasPage(),)),
+              child: Card(
+                color: Color.fromARGB(255, 250, 249, 248),
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(23.0),
+                side: BorderSide(
+                  color: Color(0xFF065CD5),
+                  width: 4.5
+                ),
+              ),
+              shadowColor: Color(0xFF065cd5),
+               elevation: 17.6,
+                child: Column(
+                children: [
+                  Padding(padding: EdgeInsets.symmetric(vertical: 23)),
+                  Icon(Ionicons.earth_outline,size: 90,color: Color(0xFF065cd5),),
+                  Text('Culturas',style: GoogleFonts.chakraPetch(
+                    color: Color.fromARGB(255, 7, 7, 7),
+                    fontSize: 26
+                  ),),
+                ],
+               ),
+              ),
+             ),
+
             ],
            ),
           ),
