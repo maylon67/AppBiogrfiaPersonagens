@@ -22,15 +22,36 @@ class _FutebolPageState extends State<FutebolPage> {
         ),
         backgroundColor: Colors.black,
       ),
-      body: GridView(
-        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 2,
-          mainAxisSpacing: 12,
-          crossAxisSpacing: 12,
+      body: Padding(
+        padding: EdgeInsets.symmetric(vertical: 25,horizontal: 15),
+        child: GridView(
+          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+            crossAxisCount: 2,
+            mainAxisSpacing: 12,
+            crossAxisSpacing: 12,
+          ),
+          shrinkWrap: true,
+          children: [
+            GestureDetector(
+              onTap: () {
+                //Navigator.push(context, MaterialPageRoute(builder: (_) => DesenhosPage()));
+              },
+              child: Card(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+                side: BorderSide(
+                  color: Color(0xFFC7FF0E),
+                  width: 4.5
+                )
+              ),
+              shadowColor: Color(0xFFC7FF0E),
+               elevation: 17.6,
+                child: Image.asset('lib/assets/dragonballfighterz.png'),
+              ),
+             ),
+          ],
         ),
-        shrinkWrap: true,
-        children: [
-        ],
       ),
     );
   }
