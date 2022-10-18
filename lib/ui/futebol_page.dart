@@ -217,6 +217,186 @@ class _FutebolPageState extends State<FutebolPage> {
                 child: Image.asset('lib/assets/curitiba.png'),
               ),
              ),
+              GestureDetector(
+              onTap: () {
+                //Navigator.push(context, MaterialPageRoute(builder: (_) => DesenhosPage()));
+              },
+              child: Card(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+                side: BorderSide(
+                  color: Color(0xFF089E03),
+                  width: 4.5
+                ),
+              ),
+              shadowColor: Color(0xFF089e03),
+               elevation: 17.6,
+                child: Image.asset('lib/assets/fluminense.png'),
+              ),
+             ),
+              GestureDetector(
+              onTap: () {
+                //Navigator.push(context, MaterialPageRoute(builder: (_) => DesenhosPage()));
+              },
+              child: Card(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+                side: BorderSide(
+                  color: Color(0xFF089E03),
+                  width: 4.5
+                ),
+              ),
+              shadowColor: Color(0xFF089e03),
+               elevation: 17.6,
+                child: Image.asset('lib/assets/botafogo.png'),
+              ),
+             ),
+              GestureDetector(
+              onTap: () {
+                //Navigator.push(context, MaterialPageRoute(builder: (_) => DesenhosPage()));
+              },
+              child: Card(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+                side: BorderSide(
+                  color: Color(0xFF089E03),
+                  width: 4.5
+                ),
+              ),
+              shadowColor: Color(0xFF089e03),
+               elevation: 17.6,
+                child: Image.asset('lib/assets/chapecoense.png'),
+              ),
+             ),
+              GestureDetector(
+              onTap: () {
+                //Navigator.push(context, MaterialPageRoute(builder: (_) => DesenhosPage()));
+              },
+              child: Card(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+                side: BorderSide(
+                  color: Color(0xFF089E03),
+                  width: 4.5
+                ),
+              ),
+              shadowColor: Color(0xFF089e03),
+               elevation: 17.6,
+                child: Image.asset('lib/assets/figueirense.png'),
+              ),
+             ),
+              GestureDetector(
+              onTap: () {
+                //Navigator.push(context, MaterialPageRoute(builder: (_) => DesenhosPage()));
+              },
+              child: Card(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+                side: BorderSide(
+                  color: Color(0xFF089E03),
+                  width: 4.5
+                ),
+              ),
+              shadowColor: Color(0xFF089e03),
+               elevation: 17.6,
+                child: Image.asset('lib/assets/brasildepelotas.png'),
+              ),
+             ),
+              GestureDetector(
+              onTap: () {
+                //Navigator.push(context, MaterialPageRoute(builder: (_) => DesenhosPage()));
+              },
+              child: Card(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+                side: BorderSide(
+                  color: Color(0xFF089E03),
+                  width: 4.5
+                ),
+              ),
+              shadowColor: Color(0xFF089e03),
+               elevation: 17.6,
+                child: Image.asset('lib/assets/ecpelotas.png'),
+              ),
+             ),
+              GestureDetector(
+              onTap: () {
+                //Navigator.push(context, MaterialPageRoute(builder: (_) => DesenhosPage()));
+              },
+              child: Card(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+                side: BorderSide(
+                  color: Color(0xFF089E03),
+                  width: 4.5
+                ),
+              ),
+              shadowColor: Color(0xFF089e03),
+               elevation: 17.6,
+                child: Image.asset('lib/assets/goias.png'),
+              ),
+             ),
+              GestureDetector(
+              onTap: () {
+                //Navigator.push(context, MaterialPageRoute(builder: (_) => DesenhosPage()));
+              },
+              child: Card(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+                side: BorderSide(
+                  color: Color(0xFF089E03),
+                  width: 4.5
+                ),
+              ),
+              shadowColor: Color(0xFF089e03),
+               elevation: 17.6,
+                child: Image.asset('lib/assets/vilanova.png'),
+              ),
+             ),
+              GestureDetector(
+              onTap: () {
+                //Navigator.push(context, MaterialPageRoute(builder: (_) => DesenhosPage()));
+              },
+              child: Card(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+                side: BorderSide(
+                  color: Color(0xFF089E03),
+                  width: 4.5
+                ),
+              ),
+              shadowColor: Color(0xFF089e03),
+               elevation: 17.6,
+                child: Image.asset('lib/assets/criciuma.png'),
+              ),
+             ),
+              GestureDetector(
+              onTap: () {
+                //Navigator.push(context, MaterialPageRoute(builder: (_) => DesenhosPage()));
+              },
+              child: Card(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+                side: BorderSide(
+                  color: Color(0xFF089E03),
+                  width: 4.5
+                ),
+              ),
+              shadowColor: Color(0xFF089e03),
+               elevation: 17.6,
+                child: Image.asset('lib/assets/avai.png'),
+              ),
+             ),
           ],
         ),
       ),
