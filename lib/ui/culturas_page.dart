@@ -46,7 +46,7 @@ class _CulturasPageState extends State<CulturasPage> {
               ),
               shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/culturanordestina.png'),
+               child: Image.asset('lib/assets/nordeste.png'),
               ),
             ),
              GestureDetector(
@@ -62,7 +62,40 @@ class _CulturasPageState extends State<CulturasPage> {
               ),
               shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/culturaargentina.png'),
+               child: Image.asset('lib/assets/argentina.png'),
+              ),
+            ),
+            
+             GestureDetector(
+              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
+              child: Card(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+                side: BorderSide(
+                  color: Color.fromARGB(255, 0, 0, 0),
+                  width: 4.5
+                )
+              ),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
+              elevation: 17.6,
+               child: Image.asset('lib/assets/italia.png'),
+              ),
+            ),
+             GestureDetector(
+              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
+              child: Card(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+                side: BorderSide(
+                  color: Color.fromARGB(255, 0, 0, 0),
+                  width: 4.5
+                )
+              ),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
+              elevation: 17.6,
+               child: Image.asset('lib/assets/espanha.png'),
               ),
             ),
             GestureDetector(
@@ -78,7 +111,23 @@ class _CulturasPageState extends State<CulturasPage> {
               ),
               shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/dbgt.png'),
+               child: Image.asset('lib/assets/alemanha.png'),
+              ),
+            ),
+             GestureDetector(
+              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
+              child: Card(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+                side: BorderSide(
+                  color: Color.fromARGB(255, 0, 0, 0),
+                  width: 4.5
+                )
+              ),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
+              elevation: 17.6,
+               child: Image.asset('lib/assets/mexico.png'),
               ),
             ),
             GestureDetector(
@@ -94,264 +143,7 @@ class _CulturasPageState extends State<CulturasPage> {
               ),
               shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/dbkai.png'),
-              ),
-            ),
-            GestureDetector(
-              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
-              child: Card(
-                color: Colors.white,
-                shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.zero,
-                side: BorderSide(
-                  color: Color.fromARGB(255, 0, 0, 0),
-                  width: 4.5
-                )
-              ),
-              shadowColor: Color.fromARGB(255, 0, 0, 0),
-              elevation: 17.6,
-               child: Image.asset('lib/assets/dbs.png'),
-              ),
-            ),
-            GestureDetector(
-              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
-              child: Card(
-                color: Colors.white,
-                shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.zero,
-                side: BorderSide(
-                  color: Color.fromARGB(255, 0, 0, 0),
-                  width: 4.5
-                )
-              ),
-              shadowColor: Color.fromARGB(255, 0, 0, 0),
-              elevation: 17.6,
-               child: Image.asset('lib/assets/sdbh.png'),
-              ),
-            ),
-            GestureDetector(
-              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
-              child: Card(
-                color: Colors.white,
-                shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.zero,
-                side: BorderSide(
-                  color: Color.fromARGB(255, 0, 0, 0),
-                  width: 4.5
-                )
-              ),
-              shadowColor: Color.fromARGB(255, 0, 0, 0),
-              elevation: 17.6,
-               child: Image.asset('lib/assets/naruto.png'),
-              ),
-            ),
-            GestureDetector(
-              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
-              child: Card(
-                color: Colors.white,
-                shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.zero,
-                side: BorderSide(
-                  color: Color.fromARGB(255, 0, 0, 0),
-                  width: 4.5
-                )
-              ),
-              shadowColor: Color.fromARGB(255, 0, 0, 0),
-              elevation: 17.6,
-               child: Image.asset('lib/assets/narutoshippuden.png'),
-              ),
-            ),
-            GestureDetector(
-              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
-              child: Card(
-                color: Colors.white,
-                shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.zero,
-                side: BorderSide(
-                  color: Color.fromARGB(255, 0, 0, 0),
-                  width: 4.5
-                )
-              ),
-              shadowColor: Color.fromARGB(255, 0, 0, 0),
-              elevation: 17.6,
-               child: Image.asset('lib/assets/boruto.png'),
-              ),
-            ),
-            GestureDetector(
-              onTap: () {
-                //Navigator.push(context, MaterialPageRoute(builder: (_) => DesenhosPage()));
-              },
-              child: Card(
-                color: Colors.white,
-                shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.zero,
-                side: BorderSide(
-                  color: Color.fromARGB(255, 0, 0, 0),
-                  width: 4.5
-                )
-              ),
-              shadowColor: Color.fromARGB(255, 0, 0, 0),
-               elevation: 17.6,
-                child: Image.asset('lib/assets/jojo.png'),
-              ),
-             ),
-             GestureDetector(
-              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => SeriesPage(),)),
-               child: Card(
-                color: Colors.white,
-                shape: RoundedRectangleBorder(
-                 borderRadius: BorderRadius.zero,
-                 side: BorderSide(
-                   color: Color.fromARGB(255, 0, 0, 0),
-                   width: 4.5
-                 ),
-                ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0), 
-               elevation: 17.6,
-                child: Image.asset('lib/assets/deathnote.png'),
-              ),
-             ),
-             GestureDetector(
-              // onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => FilmrsPage(),)),
-               child: Card(
-                color: Color.fromARGB(255, 243, 244, 244),
-                shape: RoundedRectangleBorder(
-                 borderRadius: BorderRadius.zero,
-                 side: BorderSide(
-                   color: Color.fromARGB(255, 0, 0, 0),
-                   width: 4.5
-                 )
-               ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
-               elevation: 17.6,
-                child: Image.asset('lib/assets/kimetsu.png')
-              ),
-             ),
-             GestureDetector(
-             // onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => JogosPage(),)),
-               child: Card(
-                color: Color.fromARGB(255, 237, 239, 242),
-                shape: RoundedRectangleBorder(
-                 borderRadius: BorderRadius.zero,
-                 side: BorderSide(
-                   color: Color.fromARGB(255, 0, 0, 0),
-                   width: 4.5
-                 )
-               ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
-               elevation: 17.6,
-               child: Image.asset('lib/assets/bokunohero.png')
-              ),
-             ),
-             GestureDetector(
-              // onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => LivrosPage(),)),
-               child: Card(
-                color: Color.fromARGB(255, 250, 249, 248),
-                shape: RoundedRectangleBorder(
-                 borderRadius: BorderRadius.zero,
-                 side: BorderSide(
-                   color: Color.fromARGB(255, 0, 0, 0),
-                   width: 4.5
-                 ),
-               ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
-               elevation: 17.6,
-                child: Image.asset('lib/assets/shingeki.png')
-              ),
-             ),
-          GestureDetector(
-            //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage(),)),
-            child: Card(
-                color: Colors.white,
-                shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.zero,
-              side: BorderSide(
-                color: Color.fromARGB(255, 14, 14, 14),
-                width: 4.5
-              ),
-            ),
-               shadowColor: Color.fromARGB(255, 0, 0, 0),
-               elevation: 17.6,
-                child: Image.asset('lib/assets/onepiece.png'),
-              ),
-             ),
-             GestureDetector(
-              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
-              child: Card(
-                color: Colors.white,
-                shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.zero,
-                side: BorderSide(
-                  color: Color.fromARGB(255, 0, 0, 0),
-                  width: 4.5
-                )
-              ),
-              shadowColor: Color.fromARGB(255, 0, 0, 0),
-              elevation: 17.6,
-               child: Image.asset('lib/assets/onepunchman.png'),
-              ),
-            ),
-            GestureDetector(
-              child: Card(
-            /*Qual o tamanho de 10x15 Impressão de fotos no tamanho 10,2 cm de largura por 15,2 cm de comprimento*/
-                child: Image.asset('lib/assets/nanatsu.png',),
-                shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.zero,
-                side: BorderSide(
-                  color: Color.fromARGB(255, 0, 0, 0),
-                  width: 4.5
-                ),
-              ),
-                 shadowColor: Color.fromARGB(255, 0, 0, 0),
-                 elevation: 17.6,
-              ),
-            ),
-            GestureDetector(
-              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
-              child: Card(
-                color: Colors.white,
-                shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.zero,
-                side: BorderSide(
-                  color: Color.fromARGB(255, 0, 0, 0),
-                  width: 4.5
-                )
-              ),
-              shadowColor: Color.fromARGB(255, 0, 0, 0),
-              elevation: 17.6,
-               child: Image.asset('lib/assets/hxh.png'),
-              ),
-            ),
-            GestureDetector(
-              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
-              child: Card(
-                color: Colors.white,
-                shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.zero,
-                side: BorderSide(
-                  color: Color.fromARGB(255, 0, 0, 0),
-                  width: 4.5
-                )
-              ),
-              shadowColor: Color.fromARGB(255, 0, 0, 0),
-              elevation: 17.6,
-               child: Image.asset('lib/assets/pokemon.png'),
-              ),
-            ),
-            GestureDetector(
-              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
-              child: Card(
-                color: Colors.white,
-                shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.zero,
-                side: BorderSide(
-                  color: Color.fromARGB(255, 0, 0, 0),
-                  width: 4.5
-                )
-              ),
-              shadowColor: Color.fromARGB(255, 0, 0, 0),
-              elevation: 17.6,
-               child: Image.asset('lib/assets/bakugan.png'),
+               child: Image.asset('lib/assets/africa.png'),
               ),
             ),
              GestureDetector(
@@ -367,311 +159,7 @@ class _CulturasPageState extends State<CulturasPage> {
               ),
               shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/beyblade.png'),
-              ),
-            ),
-            GestureDetector(
-              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
-              child: Card(
-                color: Colors.white,
-                shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.zero,
-                side: BorderSide(
-                  color: Color.fromARGB(255, 0, 0, 0),
-                  width: 4.5
-                )
-              ),
-              shadowColor: Color.fromARGB(255, 0, 0, 0),
-              elevation: 17.6,
-               child: Image.asset('lib/assets/yu-gi-oh.png'),
-              ),
-            ),
-            GestureDetector(
-              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
-              child: Card(
-                color: Colors.white,
-                shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.zero,
-                side: BorderSide(
-                  color: Color.fromARGB(255, 0, 0, 0),
-                  width: 4.5
-                )
-              ),
-              shadowColor: Color.fromARGB(255, 0, 0, 0),
-              elevation: 17.6,
-               child: Image.asset('lib/assets/superonze.png'),
-              ),
-            ),
-             GestureDetector(
-              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
-              child: Card(
-                color: Colors.white,
-                shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.zero,
-                side: BorderSide(
-                  color: Color.fromARGB(255, 0, 0, 0),
-                  width: 4.5
-                )
-              ),
-              shadowColor: Color.fromARGB(255, 0, 0, 0),
-              elevation: 17.6,
-               child: Image.asset('lib/assets/capitaotsubasa.png'),
-              ),
-            ),
-            GestureDetector(
-              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
-              child: Card(
-                color: Colors.white,
-                shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.zero,
-                side: BorderSide(
-                  color: Color.fromARGB(255, 0, 0, 0),
-                  width: 4.5
-                )
-              ),
-              shadowColor: Color.fromARGB(255, 0, 0, 0),
-              elevation: 17.6,
-               child: Image.asset('lib/assets/bleach.png'),
-              ),
-            ),
-             GestureDetector(
-              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
-              child: Card(
-                color: Colors.white,
-                shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.zero,
-                side: BorderSide(
-                  color: Color.fromARGB(255, 0, 0, 0),
-                  width: 4.5
-                )
-              ),
-              shadowColor: Color.fromARGB(255, 0, 0, 0),
-              elevation: 17.6,
-               child: Image.asset('lib/assets/akamegakill.png'),
-              ),
-            ),
-             GestureDetector(
-              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
-              child: Card(
-                color: Colors.white,
-                shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.zero,
-                side: BorderSide(
-                  color: Color.fromARGB(255, 0, 0, 0),
-                  width: 4.5
-                )
-              ),
-              shadowColor: Color.fromARGB(255, 0, 0, 0),
-              elevation: 17.6,
-               child: Image.asset('lib/assets/fullmetal.png'),
-              ),
-            ),
-             GestureDetector(
-              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
-              child: Card(
-                color: Colors.white,
-                shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.zero,
-                side: BorderSide(
-                  color: Color.fromARGB(255, 0, 0, 0),
-                  width: 4.5
-                )
-              ),
-              shadowColor: Color.fromARGB(255, 0, 0, 0),
-              elevation: 17.6,
-               child: Image.asset('lib/assets/fairytail.png'),
-              ),
-            ),
-             GestureDetector(
-              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
-              child: Card(
-                color: Colors.white,
-                shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.zero,
-                side: BorderSide(
-                  color: Color.fromARGB(255, 0, 0, 0),
-                  width: 4.5
-                )
-              ),
-              shadowColor: Color.fromARGB(255, 0, 0, 0),
-              elevation: 17.6,
-               child: Image.asset('lib/assets/drstone.png'),
-              ),
-            ),
-             GestureDetector(
-              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
-              child: Card(
-                color: Colors.white,
-                shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.zero,
-                side: BorderSide(
-                  color: Color.fromARGB(255, 0, 0, 0),
-                  width: 4.5
-                )
-              ),
-              shadowColor: Color.fromARGB(255, 0, 0, 0),
-              elevation: 17.6,
-               child: Image.asset('lib/assets/spyxfamily.png'),
-              ),
-            ),
-             GestureDetector(
-              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
-              child: Card(
-                color: Colors.white,
-                shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.zero,
-                side: BorderSide(
-                  color: Color.fromARGB(255, 0, 0, 0),
-                  width: 4.5
-                )
-              ),
-              shadowColor: Color.fromARGB(255, 0, 0, 0),
-              elevation: 17.6,
-               child: Image.asset('lib/assets/beastars.png'),
-              ),
-            ),
-             GestureDetector(
-              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
-              child: Card(
-                color: Colors.white,
-                shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.zero,
-                side: BorderSide(
-                  color: Color.fromARGB(255, 0, 0, 0),
-                  width: 4.5
-                )
-              ),
-              shadowColor: Color.fromARGB(255, 0, 0, 0),
-              elevation: 17.6,
-               child: Image.asset('lib/assets/edenszero.png'),
-              ),
-            ),
-             GestureDetector(
-              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
-              child: Card(
-                color: Colors.white,
-                shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.zero,
-                side: BorderSide(
-                  color: Color.fromARGB(255, 0, 0, 0),
-                  width: 4.5
-                )
-              ),
-              shadowColor: Color.fromARGB(255, 0, 0, 0),
-              elevation: 17.6,
-               child: Image.asset('lib/assets/rezero.png'),
-              ),
-            ),
-             GestureDetector(
-              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
-              child: Card(
-                color: Colors.white,
-                shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.zero,
-                side: BorderSide(
-                  color: Color.fromARGB(255, 0, 0, 0),
-                  width: 4.5
-                )
-              ),
-              shadowColor: Color.fromARGB(255, 0, 0, 0),
-              elevation: 17.6,
-               child: Image.asset('lib/assets/shamanking.png'),
-              ),
-            ),
-             GestureDetector(
-              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
-              child: Card(
-                color: Colors.white,
-                shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.zero,
-                side: BorderSide(
-                  color: Color.fromARGB(255, 0, 0, 0),
-                  width: 4.5
-                )
-              ),
-              shadowColor: Color.fromARGB(255, 0, 0, 0),
-              elevation: 17.6,
-               child: Image.asset('lib/assets/assassinationclass.png'),
-              ),
-            ),
-             GestureDetector(
-              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
-              child: Card(
-                color: Colors.white,
-                shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.zero,
-                side: BorderSide(
-                  color: Color.fromARGB(255, 0, 0, 0),
-                  width: 4.5
-                )
-              ),
-              shadowColor: Color.fromARGB(255, 0, 0, 0),
-              elevation: 17.6,
-               child: Image.asset('lib/assets/kakeguruy.png'),
-              ),
-            ),
-             GestureDetector(
-              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
-              child: Card(
-                color: Colors.white,
-                shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.zero,
-                side: BorderSide(
-                  color: Color.fromARGB(255, 0, 0, 0),
-                  width: 4.5
-                )
-              ),
-              shadowColor: Color.fromARGB(255, 0, 0, 0),
-              elevation: 17.6,
-               child: Image.asset('lib/assets/sao.png'),
-              ),
-            ),
-             GestureDetector(
-              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
-              child: Card(
-                color: Colors.white,
-                shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.zero,
-                side: BorderSide(
-                  color: Color.fromARGB(255, 0, 0, 0),
-                  width: 4.5
-                )
-              ),
-              shadowColor: Color.fromARGB(255, 0, 0, 0),
-              elevation: 17.6,
-               child: Image.asset('lib/assets/pronever.png'),
-              ),
-            ),
-            GestureDetector(
-              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
-              child: Card(
-                color: Colors.white,
-                shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.zero,
-                side: BorderSide(
-                  color: Color.fromARGB(255, 0, 0, 0),
-                  width: 4.5
-                )
-              ),
-              shadowColor: Color.fromARGB(255, 0, 0, 0),
-              elevation: 17.6,
-               child: Image.asset('lib/assets/tokyoghoul.png'),
-              ),
-            ),
-             GestureDetector(
-              //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AnimesPage(),)),
-              child: Card(
-                color: Colors.white,
-                shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.zero,
-                side: BorderSide(
-                  color: Color.fromARGB(255, 0, 0, 0),
-                  width: 4.5
-                )
-              ),
-              shadowColor: Color.fromARGB(255, 0, 0, 0),
-              elevation: 17.6,
-               child: Image.asset('lib/assets/tokyorevengers.png'),
+               child: Image.asset('lib/assets/brasil.png'),
               ),
             ),
             ],
