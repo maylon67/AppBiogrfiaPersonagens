@@ -46,7 +46,7 @@ class _CulturasPageState extends State<CulturasPage> {
               ),
               shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/dragonball.png'),
+               child: Image.asset('lib/assets/culturanordestina.png'),
               ),
             ),
              GestureDetector(
@@ -62,7 +62,7 @@ class _CulturasPageState extends State<CulturasPage> {
               ),
               shadowColor: Color.fromARGB(255, 0, 0, 0),
               elevation: 17.6,
-               child: Image.asset('lib/assets/dbz.png'),
+               child: Image.asset('lib/assets/culturaargentina.png'),
               ),
             ),
             GestureDetector(
