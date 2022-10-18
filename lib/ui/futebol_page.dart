@@ -41,11 +41,11 @@ class _FutebolPageState extends State<FutebolPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFF0878e8),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 ),
               ),
-              shadowColor: Color(0xFF0878E8),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
                 child: Image.asset('lib/assets/gremio.png'),
               ),
@@ -79,11 +79,11 @@ class _FutebolPageState extends State<FutebolPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFFE80808),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 ),
               ),
-              shadowColor: Color(0xFFe80808),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
                 child: Image.asset('lib/assets/corinthians.png'),
               ),
@@ -98,11 +98,11 @@ class _FutebolPageState extends State<FutebolPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFF04AA04),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 ),
               ),
-              shadowColor: Color(0xFF04aa04),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
                 child: Image.asset('lib/assets/palmeiras.png'),
               ),
@@ -135,11 +135,11 @@ class _FutebolPageState extends State<FutebolPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFFc30303),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 ),
               ),
-              shadowColor: Color(0xFFC30303),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
                 child: Image.asset('lib/assets/vasco.png'),
               ),
@@ -153,11 +153,11 @@ class _FutebolPageState extends State<FutebolPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFF022950),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 ),
               ),
-              shadowColor: Color(0xFF022950),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
                 child: Image.asset('lib/assets/cruzeiro.png'),
               ),
@@ -190,11 +190,11 @@ class _FutebolPageState extends State<FutebolPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFFb60a01),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 ),
               ),
-              shadowColor: Color(0xFFB60A01),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
                 child: Image.asset('lib/assets/atleticopr.png'),
               ),
@@ -208,11 +208,11 @@ class _FutebolPageState extends State<FutebolPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFF089E03),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 ),
               ),
-              shadowColor: Color(0xFF089e03),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
                 child: Image.asset('lib/assets/curitiba.png'),
               ),
@@ -226,11 +226,11 @@ class _FutebolPageState extends State<FutebolPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFF089E03),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 ),
               ),
-              shadowColor: Color(0xFF089e03),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
                 child: Image.asset('lib/assets/fluminense.png'),
               ),
@@ -244,11 +244,11 @@ class _FutebolPageState extends State<FutebolPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFF089E03),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 ),
               ),
-              shadowColor: Color(0xFF089e03),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
                 child: Image.asset('lib/assets/botafogo.png'),
               ),
@@ -262,11 +262,11 @@ class _FutebolPageState extends State<FutebolPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFF089E03),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 ),
               ),
-              shadowColor: Color(0xFF089e03),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
                 child: Image.asset('lib/assets/chapecoense.png'),
               ),
@@ -280,11 +280,11 @@ class _FutebolPageState extends State<FutebolPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFF089E03),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 ),
               ),
-              shadowColor: Color(0xFF089e03),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
                 child: Image.asset('lib/assets/figueirense.png'),
               ),
@@ -298,11 +298,11 @@ class _FutebolPageState extends State<FutebolPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFF089E03),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 ),
               ),
-              shadowColor: Color(0xFF089e03),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
                 child: Image.asset('lib/assets/brasildepelotas.png'),
               ),
@@ -316,11 +316,11 @@ class _FutebolPageState extends State<FutebolPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFF089E03),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 ),
               ),
-              shadowColor: Color(0xFF089e03),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
                 child: Image.asset('lib/assets/ecpelotas.png'),
               ),
@@ -334,11 +334,11 @@ class _FutebolPageState extends State<FutebolPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFF089E03),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 ),
               ),
-              shadowColor: Color(0xFF089e03),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
                 child: Image.asset('lib/assets/goias.png'),
               ),
@@ -352,11 +352,11 @@ class _FutebolPageState extends State<FutebolPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFF089E03),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 ),
               ),
-              shadowColor: Color(0xFF089e03),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
                 child: Image.asset('lib/assets/vilanova.png'),
               ),
@@ -370,11 +370,11 @@ class _FutebolPageState extends State<FutebolPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFF089E03),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 ),
               ),
-              shadowColor: Color(0xFF089e03),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
                 child: Image.asset('lib/assets/criciuma.png'),
               ),
@@ -388,11 +388,11 @@ class _FutebolPageState extends State<FutebolPage> {
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
-                  color: Color(0xFF089E03),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   width: 4.5
                 ),
               ),
-              shadowColor: Color(0xFF089e03),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
                 child: Image.asset('lib/assets/avai.png'),
               ),
