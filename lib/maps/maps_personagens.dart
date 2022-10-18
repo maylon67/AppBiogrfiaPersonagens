@@ -99,4 +99,12 @@ mapSD jsonTest = {
     'senha_do_usuario':'',
   }
 ],
+
+"cultura":[
+  {
+    'imagem_pais_cult':'',
+    'nome_cult':'',
+    'sinpse_anime':'',
+  }
+],
 };
