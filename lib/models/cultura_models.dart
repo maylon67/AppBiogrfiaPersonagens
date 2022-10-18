@@ -5,7 +5,7 @@ class AnimesModels{
   String nomeCult = '';
   String sinopseAnime = '';
   AnimesModels(
-    this.imagemPaisCult,
+    this.imagemPaisCult, 
     this.nomeCult,
     this.sinopseAnime,
   );
