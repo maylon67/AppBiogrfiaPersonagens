@@ -397,6 +397,42 @@ class _FutebolPageState extends State<FutebolPage> {
                 child: Image.asset('lib/assets/avai.png'),
               ),
              ),
+             GestureDetector(
+              onTap: () {
+                //Navigator.push(context, MaterialPageRoute(builder: (_) => DesenhosPage()));
+              },
+              child: Card(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+                side: BorderSide(
+                  color: Color.fromARGB(255, 0, 0, 0),
+                  width: 4.5
+                ),
+              ),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
+               elevation: 17.6,
+                child: Image.asset('lib/assets/barcelona.png'),
+              ),
+             ),
+             GestureDetector(
+              onTap: () {
+                //Navigator.push(context, MaterialPageRoute(builder: (_) => DesenhosPage()));
+              },
+              child: Card(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+                side: BorderSide(
+                  color: Color.fromARGB(255, 0, 0, 0),
+                  width: 4.5
+                ),
+              ),
+              shadowColor: Color.fromARGB(255, 0, 0, 0),
+               elevation: 17.6,
+                child: Image.asset('lib/assets/realmadrid.png'),
+              ),
+             ),
           ],
         ),
       ),
