@@ -35,7 +35,7 @@ class _MainPageState extends State<MainPage> {
         centerTitle: true,
       ),
       body:SizedBox(
-        height:height(context)*0.98,
+        height:height(context)*0.99,
         width: width(context),
         child: Padding(
         padding: EdgeInsets.symmetric(horizontal: 15, vertical: 25),
