@@ -438,7 +438,7 @@ class _FutebolPageState extends State<FutebolPage> {
                 //Navigator.push(context, MaterialPageRoute(builder: (_) => DesenhosPage()));
               },
               child: Card(
-                color: Colors.white,
+                color: Colors.white, 
                 shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.zero,
                 side: BorderSide(
