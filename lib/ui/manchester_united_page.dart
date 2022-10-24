@@ -11,7 +11,7 @@ class _ManchesterUnitedState extends State<ManchesterUnited> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(centerTitle: true,title: Text('Manchester United',style: GoogleFonts.acme(color:Color.fromRGBO(197, 18, 5, 1),fontSize: 29),),backgroundColor: Color(0xFFF3CC08),),
+      appBar: AppBar(centerTitle: true,title: Text('Manchester United',style: GoogleFonts.acme(color:Color.fromRGBO(197, 18, 5, 1),fontSize: 29),),backgroundColor: Colors.black,),
       backgroundColor: Color.fromRGBO(197, 18, 5, 1),
       body: SafeArea(
         child: SingleChildScrollView(
@@ -22,8 +22,8 @@ class _ManchesterUnitedState extends State<ManchesterUnited> {
               Padding(
                 padding: EdgeInsets.symmetric(vertical: 15, horizontal: 15),
                 child: Text(
-                  'Manchester City Football Club ou simplesmente Manchester City é um clube de futebol inglês, fundado em 1880 sob o nome de FC St. Marks (West Gorton) tornando-se posteriormente Ardwick Association Football Club, e finalmente, no dia 16 de abril de 1894, no seu nome atual.',
-                  style: GoogleFonts.acme(color: Color(0xFFF3CC08),fontSize: 38),
+                  'O clube de futebol mais rico do mundo na atualidade, o Manchester United, foi fundado em 1878 por um grupo de ferroviários ingleses, que o batizaram inicialmente como “Newton Heath”. Sem muitos recursos na época, o clube tentou durante vários anos ingressar na Liga Inglesa, mas não obteve sucesso.',
+                  style: GoogleFonts.acme(color: Color.fromARGB(255, 0, 0, 0),fontSize: 38),
                 ),
               )
             ],

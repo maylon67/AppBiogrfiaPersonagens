@@ -1,6 +1,8 @@
 import 'package:app_personagens_biografia/app_config.dart';
 import 'package:app_personagens_biografia/ui/%C2%B4manchester_city_page.dart';
+import 'package:app_personagens_biografia/ui/criciuma_page.dart';
 import 'package:app_personagens_biografia/ui/manchester_united_page.dart';
+import 'package:app_personagens_biografia/ui/napoli_page.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -365,7 +367,7 @@ class _FutebolPageState extends State<FutebolPage> {
              ),
               GestureDetector(
               onTap: () {
-                //Navigator.push(context, MaterialPageRoute(builder: (_) => DesenhosPage()));
+                Navigator.push(context, MaterialPageRoute(builder: (_) => CriciumaPage()));
               },
               child: Card(
                 color: Colors.white,
@@ -563,7 +565,7 @@ class _FutebolPageState extends State<FutebolPage> {
              ),
              GestureDetector(
               onTap: () {
-                //Navigator.push(context, MaterialPageRoute(builder: (_) => DesenhosPage()));
+                Navigator.push(context, MaterialPageRoute(builder: (_) => NapoliPage()));
               },
               child: Card(
                 color: Colors.white,
