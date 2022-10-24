@@ -1,4 +1,5 @@
 import 'package:app_personagens_biografia/app_config.dart';
+import 'package:app_personagens_biografia/ui/%C2%B4manchester_city_page.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -466,7 +467,7 @@ class _FutebolPageState extends State<FutebolPage> {
               ),
               shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
-                child: Image.asset('lib/assets/avai.png'),
+                child: Image.asset('lib/assets/bvb.png'),
               ),
              ),
              GestureDetector(
@@ -484,7 +485,7 @@ class _FutebolPageState extends State<FutebolPage> {
               ),
               shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
-                child: Image.asset('lib/assets/avai.png'),
+                child: Image.asset('lib/assets/united.png'),
               ),
              ),
              GestureDetector(
@@ -507,7 +508,7 @@ class _FutebolPageState extends State<FutebolPage> {
              ),
              GestureDetector(
               onTap: () {
-                //Navigator.push(context, MaterialPageRoute(builder: (_) => DesenhosPage()));
+                Navigator.push(context, MaterialPageRoute(builder: (_) => ManchesterCityPage()));
               },
               child: Card(
                 color: Colors.white,
@@ -520,7 +521,7 @@ class _FutebolPageState extends State<FutebolPage> {
               ),
               shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
-                child: Image.asset('lib/assets/avai.png'),
+                child: Image.asset('lib/assets/liverpool.png'),
               ),
              ),
              GestureDetector(
@@ -556,7 +557,7 @@ class _FutebolPageState extends State<FutebolPage> {
               ),
               shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
-                child: Image.asset('lib/assets/avai.png'),
+                child: Image.asset('lib/assets/juventus.png'),
               ),
              ),
              GestureDetector(
@@ -592,7 +593,7 @@ class _FutebolPageState extends State<FutebolPage> {
               ),
               shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
-                child: Image.asset('lib/assets/avai.png'),
+                child: Image.asset('lib/assets/celtics.png'),
               ),
              ),
              GestureDetector(
@@ -610,7 +611,7 @@ class _FutebolPageState extends State<FutebolPage> {
               ),
               shadowColor: Color.fromARGB(255, 0, 0, 0),
                elevation: 17.6,
-                child: Image.asset('lib/assets/evertonfcs.png'),
+                child: Image.asset('lib/assets/rangers.png'),
               ),
              ),
           ],
