@@ -1,5 +1,7 @@
 import 'package:app_personagens_biografia/app_config.dart';
 import 'package:app_personagens_biografia/ui/%C2%B4manchester_city_page.dart';
+import 'package:app_personagens_biografia/ui/atletico_mineiro_page.dart';
+import 'package:app_personagens_biografia/ui/atletico_paranaense_page.dart';
 import 'package:app_personagens_biografia/ui/barcelona_page.dart';
 import 'package:app_personagens_biografia/ui/celtic_page.dart';
 import 'package:app_personagens_biografia/ui/corinthians_page.dart';
@@ -179,7 +181,7 @@ class _FutebolPageState extends State<FutebolPage> {
              ),
              GestureDetector(
               onTap: () {
-                //Navigator.push(context, MaterialPageRoute(builder: (_) => DesenhosPage()));
+                Navigator.push(context, MaterialPageRoute(builder: (_) => AtleticoMinieroPage()));
               },
               child: Card(
                 color: Colors.white,
@@ -198,7 +200,7 @@ class _FutebolPageState extends State<FutebolPage> {
 
              GestureDetector(
               onTap: () {
-                //Navigator.push(context, MaterialPageRoute(builder: (_) => DesenhosPage()));
+                Navigator.push(context, MaterialPageRoute(builder: (_) => AtleticoParanaensePage()));
               },
               child: Card(
                 color: Colors.white,
