@@ -12,7 +12,7 @@ class _GremioPgeState extends State<GremioPge> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(centerTitle: true,title: Text('Grêmio',style: GoogleFonts.acme(color: Colors.blue,fontSize: 29),),backgroundColor: Colors.black,),
+      appBar: AppBar(centerTitle: true,title: Text('Gremio',style: GoogleFonts.acme(color: Colors.blue,fontSize: 29),),backgroundColor: Colors.black,),
       backgroundColor: Colors.blue,
       body: SafeArea(
         child: SingleChildScrollView(

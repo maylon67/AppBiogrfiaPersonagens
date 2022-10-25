@@ -4,6 +4,7 @@ import 'package:app_personagens_biografia/ui/atletico_mineiro_page.dart';
 import 'package:app_personagens_biografia/ui/atletico_paranaense_page.dart';
 import 'package:app_personagens_biografia/ui/barcelona_page.dart';
 import 'package:app_personagens_biografia/ui/bayern_page.dart';
+import 'package:app_personagens_biografia/ui/borussia_page.dart';
 import 'package:app_personagens_biografia/ui/celtic_page.dart';
 import 'package:app_personagens_biografia/ui/corinthians_page.dart';
 import 'package:app_personagens_biografia/ui/criciuma_page.dart';
@@ -472,7 +473,7 @@ class _FutebolPageState extends State<FutebolPage> {
              ),
              GestureDetector(
               onTap: () {
-                //Navigator.push(context, MaterialPageRoute(builder: (_) => DesenhosPage()));
+                Navigator.push(context, MaterialPageRoute(builder: (_) => BorussiaPage()));
               },
               child: Card(
                 color: Colors.white,
