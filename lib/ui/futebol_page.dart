@@ -3,6 +3,7 @@ import 'package:app_personagens_biografia/ui/%C2%B4manchester_city_page.dart';
 import 'package:app_personagens_biografia/ui/atletico_mineiro_page.dart';
 import 'package:app_personagens_biografia/ui/atletico_paranaense_page.dart';
 import 'package:app_personagens_biografia/ui/barcelona_page.dart';
+import 'package:app_personagens_biografia/ui/bayern_page.dart';
 import 'package:app_personagens_biografia/ui/celtic_page.dart';
 import 'package:app_personagens_biografia/ui/corinthians_page.dart';
 import 'package:app_personagens_biografia/ui/criciuma_page.dart';
@@ -15,6 +16,7 @@ import 'package:app_personagens_biografia/ui/manchester_united_page.dart';
 import 'package:app_personagens_biografia/ui/napoli_page.dart';
 import 'package:app_personagens_biografia/ui/palmeiras_page.dart';
 import 'package:app_personagens_biografia/ui/pelotas_page.dart';
+import 'package:app_personagens_biografia/ui/real_madrid_page.dart';
 import 'package:app_personagens_biografia/ui/vasco_page.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -434,7 +436,7 @@ class _FutebolPageState extends State<FutebolPage> {
              ),
              GestureDetector(
               onTap: () {
-                //Navigator.push(context, MaterialPageRoute(builder: (_) => DesenhosPage()));
+                Navigator.push(context, MaterialPageRoute(builder: (_) => RealMadridPage()));
               },
               child: Card(
                 color: Colors.white,
@@ -452,7 +454,7 @@ class _FutebolPageState extends State<FutebolPage> {
              ),
              GestureDetector(
               onTap: () {
-                //Navigator.push(context, MaterialPageRoute(builder: (_) => DesenhosPage()));
+                Navigator.push(context, MaterialPageRoute(builder: (_) => BayernPage()));
               },
               child: Card(
                 color: Colors.white, 
